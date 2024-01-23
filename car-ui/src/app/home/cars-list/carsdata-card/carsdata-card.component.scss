@@ -1,0 +1,28 @@
+
+.example-card i {
+  color: #d73b1e;
+}
+
+.example-card {
+  flex-grow: 1;
+  margin-left: -30px;
+  height: 200px;
+  width: 800px;
+}
+
+.card-title{
+  margin-left: 15px;
+}
+
+.info h3 {
+  width: 100px;
+  text-align: center;
+}
+
+.carsList {
+  margin-left: auto;
+  margin-right: auto;
+  height: 25vh;
+  background-color: #000000;
+  color: #ffffff;
+}

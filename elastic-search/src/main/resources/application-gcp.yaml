@@ -1,0 +1,17 @@
+pubSub:
+  topic: ${PUB_SUB_TOPIC_ID}
+  subscriptionId: ${PUB_SUB_SUBSCRIPTION}
+  projectId: ${GCP_PROJECT_ID}
+  credentials: ${GOOGLE_APPLICATION_CREDENTIALS}
+
+elastic:
+  hostname: ${ELASTICSEARCH_HOST}
+  port: ${ELASTICSEARCH_PORT}
+
+
+
+
+
+
+
+

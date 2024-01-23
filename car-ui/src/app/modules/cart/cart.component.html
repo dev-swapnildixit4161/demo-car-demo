@@ -1,0 +1,9 @@
+<app-header></app-header>
+
+  <div *ngIf="cartItems.length == 0" class = "centered-content">
+    <img src="assets/images/emptyCart.png" alt="No items in cart" style="width: 30%; height: 30%" >
+  </div>
+
+  <div *ngFor="let cartItem of cartItems; trackBy: trackByFn">
+    <app-cart-items [cartItem]="cartItem" (OrderPlaced)="orderPlaced($event)"></app-cart-items>
+  </div>

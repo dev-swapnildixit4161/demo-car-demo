@@ -1,0 +1,38 @@
+#cars-list{
+  margin-top: 150px;
+}
+.ngx-pagination .current{
+  padding: .1875rem .625rem;
+  background: #d73b1e;
+  color: #fefefe;
+  cursor: default;
+}
+
+.carsPage h1 {
+  margin-top: 10px;
+  color: #d73b1e;
+  margin-bottom: -15px;
+}
+.car-brand-title{
+  margin-left: -30px;
+}
+.carsPageNewUI h1 {
+  margin-top: 10px;
+  color: #076599;
+  margin-bottom: -15px;
+}
+
+.app-spinner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 913px) {
+
+  #cars-list{
+    margin-top: 150px;
+  }
+
+}

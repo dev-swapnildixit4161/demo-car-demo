@@ -1,0 +1,963 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>java-competency-demo-ui documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top d-block d-sm-none">
+            <a href="../" class="navbar-brand">java-competency-demo-ui documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">Components</li>
+  <li class="breadcrumb-item"
+  >
+  SidenavComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a href="#info" class="nav-link active"
+                role="tab" id="info-tab" data-bs-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li class="nav-item">
+            <a href="#source" class="nav-link"
+                role="tab" id="source-tab" data-bs-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li class="nav-item">
+            <a href="#templateData" class="nav-link"
+                role="tab" id="templateData-tab" data-bs-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li class="nav-item">
+            <a href="#styleData" class="nav-link"
+                role="tab" id="styleData-tab" data-bs-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li class="nav-item">
+            <a href="#tree" class="nav-link"
+                role="tab" id="tree-tab" data-bs-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/dashboard/components/sidenav/sidenav.component.ts</code>
+</p>
+
+
+    <p class="comment">
+        <h3>Description</h3>
+    </p>
+    <p class="comment">
+        <p>Component representing the side navigation menu.</p>
+
+    </p>
+
+
+
+
+<section data-compodoc="block-metadata">
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-sidenav</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./sidenav.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./sidenav.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-index">
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#arrowIcon" >arrowIcon</a>
+                            </li>
+                            <li>
+                                <a href="#contentMargin" >contentMargin</a>
+                            </li>
+                            <li>
+                                <a href="#isMenuOpen" >isMenuOpen</a>
+                            </li>
+                            <li>
+                                <a href="#menuItems" >menuItems</a>
+                            </li>
+                            <li>
+                                <a href="#previousUrl" >previousUrl</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#checkRouteActive" >checkRouteActive</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#onToolbarMenuToggle" >onToolbarMenuToggle</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-constructor">
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(router: Router)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="35" class="link-to-prism">src/app/dashboard/components/sidenav/sidenav.component.ts:35</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Creates an instance of SidenavComponent.</p>
+</div>
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                                    <td>Description</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                    <code>Router</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <ul>
+<li>The Angular router for navigation.</li>
+</ul>
+
+                                                        </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section data-compodoc="block-methods">
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="checkRouteActive"></a>
+                    <span class="name">
+                        <span ><b>checkRouteActive</b></span>
+                        <a href="#checkRouteActive"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>checkRouteActive(url: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="62"
+                            class="link-to-prism">src/app/dashboard/components/sidenav/sidenav.component.ts:62</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Checks if the given route is active.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Description</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>url</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <ul>
+<li>The URL to check against the current route.</li>
+</ul>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <ul>
+<li>True if the route is active, otherwise false.</li>
+</ul>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="46"
+                            class="link-to-prism">src/app/dashboard/components/sidenav/sidenav.component.ts:46</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Initializes the component and subscribes to route change events.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onToolbarMenuToggle"></a>
+                    <span class="name">
+                        <span ><b>onToolbarMenuToggle</b></span>
+                        <a href="#onToolbarMenuToggle"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onToolbarMenuToggle()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="104"
+                            class="link-to-prism">src/app/dashboard/components/sidenav/sidenav.component.ts:104</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Toggles the side menu&#39;s open/close state and adjusts the content margin accordingly.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section data-compodoc="block-properties">
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="arrowIcon"></a>
+                    <span class="name">
+                        <span ><b>arrowIcon</b></span>
+                        <a href="#arrowIcon"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&quot;keyboard_double_arrow_left&quot;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/dashboard/components/sidenav/sidenav.component.ts:18</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>The icon used for toggling the side menu.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="contentMargin"></a>
+                    <span class="name">
+                        <span ><b>contentMargin</b></span>
+                        <a href="#contentMargin"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>240</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/dashboard/components/sidenav/sidenav.component.ts:20</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>The margin for the content when the side menu is open.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isMenuOpen"></a>
+                    <span class="name">
+                        <span ><b>isMenuOpen</b></span>
+                        <a href="#isMenuOpen"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>true</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/dashboard/components/sidenav/sidenav.component.ts:16</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Indicates whether the side menu is open or closed.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="menuItems"></a>
+                    <span class="name">
+                        <span ><b>menuItems</b></span>
+                        <a href="#menuItems"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+    {
+      path: ROUTES.DASHBOARD,
+      icon: ICONS.CLOUD_FUNCTIONS,
+      label: &quot;Cloud Functions&quot;,
+    },
+    {
+      path: &#x60;${ROUTES.DASHBOARD}/home&#x60;,
+      icon: ICONS.OLD_UI,
+      label: &quot;Old UI&quot;,
+    },
+  ]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/app/dashboard/components/sidenav/sidenav.component.ts:24</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>The menu items displayed in the side menu.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="previousUrl"></a>
+                    <span class="name">
+                        <span ><b>previousUrl</b></span>
+                        <a href="#previousUrl"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>ROUTES.DASHBOARD</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/dashboard/components/sidenav/sidenav.component.ts:22</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>The URL of the previous route.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component } from &quot;@angular/core&quot;;
+import { Router, RoutesRecognized } from &quot;@angular/router&quot;;
+import { filter, pairwise } from &quot;rxjs&quot;;
+import { ROUTES, ICONS } from &quot;../../../constants/constants&quot;;
+
+/**
+ * Component representing the side navigation menu.
+ */
+@Component({
+  selector: &quot;app-sidenav&quot;,
+  templateUrl: &quot;./sidenav.component.html&quot;,
+  styleUrls: [&quot;./sidenav.component.scss&quot;],
+})
+export class SidenavComponent {
+  /** Indicates whether the side menu is open or closed. */
+  isMenuOpen &#x3D; true;
+  /** The icon used for toggling the side menu. */
+  arrowIcon: string &#x3D; &quot;keyboard_double_arrow_left&quot;;
+  /** The margin for the content when the side menu is open. */
+  contentMargin &#x3D; 240;
+  /** The URL of the previous route. */
+  previousUrl: string &#x3D; ROUTES.DASHBOARD;
+  /** The menu items displayed in the side menu. */
+  menuItems &#x3D; [
+    {
+      path: ROUTES.DASHBOARD,
+      icon: ICONS.CLOUD_FUNCTIONS,
+      label: &quot;Cloud Functions&quot;,
+    },
+    {
+      path: &#x60;${ROUTES.DASHBOARD}/home&#x60;,
+      icon: ICONS.OLD_UI,
+      label: &quot;Old UI&quot;,
+    },
+  ];
+
+  /**
+   * Creates an instance of SidenavComponent.
+   * @param {Router} router - The Angular router for navigation.
+   */
+  constructor(private router: Router) {}
+
+  /**
+   * Initializes the component and subscribes to route change events.
+   */
+  ngOnInit() {
+    this.router.events
+      .pipe(
+        filter((event: any) &#x3D;&gt; event instanceof RoutesRecognized),
+        pairwise(),
+      )
+      .subscribe((events: RoutesRecognized[]) &#x3D;&gt; {
+        this.previousUrl &#x3D; events[0].urlAfterRedirects;
+      });
+  }
+
+  /**
+   * Checks if the given route is active.
+   * @param {string} url - The URL to check against the current route.
+   * @returns {boolean} - True if the route is active, otherwise false.
+   */
+  checkRouteActive(url: string): boolean {
+    let routerUrl &#x3D; this.router.url;
+
+    if (routerUrl.includes(&quot;?&quot;)) {
+      routerUrl &#x3D; this.router.url.substring(0, routerUrl.indexOf(&quot;?&quot;));
+    }
+    if (this.previousUrl.includes(&quot;?&quot;)) {
+      this.previousUrl &#x3D; this.previousUrl.substring(
+        0,
+        this.previousUrl.indexOf(&quot;?&quot;),
+      );
+    }
+
+    if (url &#x3D;&#x3D;&#x3D; routerUrl) {
+      return true;
+    }
+    if (url &#x3D;&#x3D;&#x3D; &quot;/dashboard&quot; &amp;&amp; routerUrl.includes(&quot;/dashboard/gcp&quot;)) {
+      return true;
+    }
+
+    if (
+      url &#x3D;&#x3D;&#x3D; &quot;/dashboard/home&quot; &amp;&amp;
+      (routerUrl.includes(&quot;/dashboard/home/gcp&quot;) ||
+        routerUrl.includes(&quot;/dashboard/home/azure&quot;))
+    ) {
+      return true;
+    }
+
+    if (
+      this.router.url &#x3D;&#x3D;&#x3D; &quot;/dashboard/api-error&quot; &amp;&amp;
+      this.previousUrl !&#x3D;&#x3D; undefined
+    ) {
+      if (this.previousUrl &#x3D;&#x3D;&#x3D; url) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  /**
+   * Toggles the side menu&#x27;s open/close state and adjusts the content margin accordingly.
+   */
+  onToolbarMenuToggle() {
+    this.isMenuOpen &#x3D; !this.isMenuOpen;
+    this.arrowIcon &#x3D; !this.isMenuOpen
+      ? &quot;keyboard_double_arrow_right&quot;
+      : &quot;keyboard_double_arrow_left&quot;;
+    if (!this.isMenuOpen) {
+      this.contentMargin &#x3D; 70;
+    } else {
+      this.contentMargin &#x3D; 240;
+    }
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;mat-sidenav-container id&#x3D;&quot;sidenavContainer&quot; fullscreen&gt;
+  &lt;mat-sidenav
+    mode&#x3D;&quot;side&quot;
+    #sidenav
+    id&#x3D;&quot;sidenav&quot;
+    [class.menu-open]&#x3D;&quot;isMenuOpen&quot;
+    [class.menu-close]&#x3D;&quot;!isMenuOpen&quot;
+    opened
+  &gt;
+    &lt;mat-nav-list&gt;
+      &lt;a
+        *ngFor&#x3D;&quot;let menuItem of menuItems&quot;
+        [routerLink]&#x3D;&quot;menuItem.path&quot;
+        mat-list-item
+        [class.active]&#x3D;&quot;checkRouteActive(menuItem.path)&quot;
+        class&#x3D;&quot;nav-item d-flex flex-row&quot;
+      &gt;
+        &lt;div class&#x3D;&quot;nav-icon&quot; [ngClass]&#x3D;&quot;{ &#x27;d-none&#x27;: isMenuOpen }&quot;&gt;
+          {{ menuItem.icon }}
+        &lt;/div&gt;
+        &lt;span class&#x3D;&quot;nav-title ps-2&quot; [ngClass]&#x3D;&quot;{ &#x27;d-none&#x27;: !isMenuOpen }&quot;&gt;{{
+          menuItem.label
+        }}&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/mat-nav-list&gt;
+    &lt;div class&#x3D;&quot;footer&quot;&gt;
+      &lt;mat-icon (click)&#x3D;&quot;onToolbarMenuToggle()&quot; id&#x3D;&quot;toolbarMenu&quot;&gt;{{
+        arrowIcon
+      }}&lt;/mat-icon&gt;
+    &lt;/div&gt;
+  &lt;/mat-sidenav&gt;
+  &lt;mat-sidenav-content [ngStyle]&#x3D;&quot;{ &#x27;margin-left.px&#x27;: contentMargin }&quot;&gt;
+    &lt;div class&#x3D;&quot;ps-5 pe-3 mt-3 container&quot;&gt;
+      &lt;ng-content&gt;&lt;/ng-content&gt;
+    &lt;/div&gt;
+  &lt;/mat-sidenav-content&gt;
+&lt;/mat-sidenav-container&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="styleData">
+                <p class="comment">
+                    <code>./sidenav.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">#sidenavContainer {
+  margin-top: 64px;
+}
+
+#sidenav {
+  width: 270px;
+  background: #076599;
+
+  &amp;.menu-close {
+    width: 80px;
+  }
+
+  &amp;.menu-open {
+    width: 270px;
+  }
+}
+
+:host ::ng-deep .mdc-list-item__primary-text {
+  color: #ffffff !important;
+}
+.nav-item {
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+.nav-title {
+  font-family: Montserrat;
+  font-size: 14px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+.active {
+  background-color: #003f78;
+  .nav-title {
+    color: #f8f8f8;
+    font-weight: 500;
+  }
+}
+.footer {
+  position: absolute;
+  bottom: 15px;
+  right: 21px;
+  color: #ffffff;
+  cursor: pointer;
+}
+#toolbarMenu {
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+}
+.nav-icon {
+  height: 30px;
+  width: 30px;
+  background: #ffffff;
+  color: #00539e;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 15px;
+  text-align: center;
+  padding: 4px;
+}
+
+#mysidenav {
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0 0 12px 0 #00000024;
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><mat-sidenav-container id="sidenavContainer" fullscreen>  <mat-sidenav    mode="side"    #sidenav    id="sidenav"    [class.menu-open]="isMenuOpen"    [class.menu-close]="!isMenuOpen"    opened  >    <mat-nav-list>      <a        *ngFor="let menuItem of menuItems"        [routerLink]="menuItem.path"        mat-list-item        [class.active]="checkRouteActive(menuItem.path)"        class="nav-item d-flex flex-row"      >        <div class="nav-icon" [ngClass]="{ \'d-none\': isMenuOpen }">          {{ menuItem.icon }}        </div>        <span class="nav-title ps-2" [ngClass]="{ \'d-none\': !isMenuOpen }">{{          menuItem.label        }}</span>      </a>    </mat-nav-list>    <div class="footer">      <mat-icon (click)="onToolbarMenuToggle()" id="toolbarMenu">{{        arrowIcon      }}</mat-icon>    </div>  </mat-sidenav>  <mat-sidenav-content [ngStyle]="{ \'margin-left.px\': contentMargin }">    <div class="ps-5 pe-3 mt-3 container">      <ng-content></ng-content>    </div>  </mat-sidenav-content></mat-sidenav-container></div>'
+    var COMPONENTS = [{'name': 'ActionColumnComponent', 'selector': 'app-action-column'},{'name': 'ApiErrorComponent', 'selector': 'app-api-error'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CarBrandsComponent', 'selector': 'app-car-brands'},{'name': 'CarsdataCardComponent', 'selector': 'app-carsdata-card'},{'name': 'CarsDataComponent', 'selector': 'app-cars-data'},{'name': 'CarsListComponent', 'selector': 'app-cars-list'},{'name': 'CartComponent', 'selector': 'app-cart'},{'name': 'CartItemsComponent', 'selector': 'app-cart-items'},{'name': 'CloudOptionsComponent', 'selector': 'app-cloud-options'},{'name': 'ConfirmationDialogComponent', 'selector': 'app-confirmation-dialog'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DataNotFoundComponent', 'selector': 'app-data-not-found'},{'name': 'DataNotFoundComponent', 'selector': 'app-data-not-found'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'PageNotFoundComponent', 'selector': 'app-page-not-found'},{'name': 'ServerErrorComponent', 'selector': 'app-server-error'},{'name': 'SidenavComponent', 'selector': 'app-sidenav'},{'name': 'TabBarComponent', 'selector': 'app-tab-bar'},{'name': 'TableHeadersDropdownComponent', 'selector': 'app-table-headers-dropdown'},{'name': 'TabularViewComponent', 'selector': 'app-tabular-view'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'SidenavComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'SidenavComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

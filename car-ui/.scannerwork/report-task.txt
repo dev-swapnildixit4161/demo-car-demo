@@ -1,0 +1,7 @@
+organization=nashtechglobal
+projectKey=nashtech
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.46863
+dashboardUrl=https://sonarcloud.io/dashboard?id=nashtech
+ceTaskId=AYrcxoanpyNRfDJYyzqe
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYrcxoanpyNRfDJYyzqe

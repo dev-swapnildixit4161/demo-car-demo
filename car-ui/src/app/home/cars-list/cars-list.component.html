@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="row">
+    <div class="col" [style.display]="showcarList ? 'none' : 'block'">
+      <div class="d-flex align-items-center justify-content-center min-vh-100">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="cars-list">
+    <div class="col"></div>
+
+    <div *ngIf="showcarList" [ngClass]="{'carsPageNewUI': !isNewUI, 'carsPage': isNewUI ,'col-sm-7' : true}">
+
+        <h1 class="car-brand-title">{{ selectedCarBrand }} Car Models</h1>
+      <!-- Car brands Name -->
+      <div
+        *ngFor="
+          let car of carModelDetails
+            | paginate
+              : {
+                  itemsPerPage: tableSize,
+                  currentPage: page,
+                  totalItems: count
+                };
+          let i = index
+        "
+      >
+        <!-- Car models -->
+        <app-carsdata-card
+          [carCompanyName]="car.brand"
+          [carModel]="car.model"
+          [carPrice]="car.price"
+          [carMileage]="car.mileage"
+          [manufacturingYear]="car.year"
+          [carColor]="car.color"
+        ></app-carsdata-card>
+      </div>
+
+      <div class="text-center my-5">
+        <pagination-controls
+          class="twik"
+          previousLabel="Prev"
+          nextLabel="Next"
+          (pageChange)="onTableDataChange($event)"
+        />
+      </div>
+    </div>
+    <div class="col"></div>
+</div>

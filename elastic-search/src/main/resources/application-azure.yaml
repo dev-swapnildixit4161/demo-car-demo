@@ -1,0 +1,30 @@
+spring:
+  kafka:
+    bootstrap-servers: ntdemoevtnamespace.servicebus.windows.net:9093
+    client-id: elastic-search
+    properties:
+      sasl.jaas.config: org.apache.kafka.common.security.plain.PlainLoginModule required username="$ConnectionString" password="${PRIMARY_CONNECTION}";
+      sasl.mechanism: PLAIN
+      security.protocol: SASL_SSL
+    producer:
+      value-serializer: com.elasticsearch.elasticsearch.util.CarEntitySerializer
+    consumer:
+      group-id: $Default
+      properties:
+        spring.json:
+          use.type.headers: true
+          value.default.type: com.elasticsearch.elasticsearch.entity.CarEntity
+topic:
+  producer: ${TOPIC}
+
+
+elastic:
+  hostname: ${HOSTNAME:localhost}
+  port: ${PORT:9200}
+# GCP IP: http://35.201.207.148:9200/
+# AZure IP: http://20.204.229.0:9200/
+
+
+
+
+

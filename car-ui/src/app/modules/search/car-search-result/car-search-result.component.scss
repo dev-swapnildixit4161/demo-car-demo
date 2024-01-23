@@ -1,0 +1,27 @@
+.search-result-cards{
+}
+
+.add-to-cart-button{
+  height: fit-content;
+  width: fit-content;
+  margin-top: 120px;
+  margin-left: 20px;
+  background-color: #076599;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  flex-grow: 0.05;
+  }
+
+.paginate{
+  margin-right: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.centered-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 13%;
+}

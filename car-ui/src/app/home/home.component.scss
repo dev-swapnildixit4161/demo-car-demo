@@ -1,0 +1,104 @@
+.homePage{
+  overflow: hidden;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#sub-header{
+  position: fixed;
+  top: 30px;
+  left: 20px;
+  z-index: 1;
+}
+
+
+.nashTechLogo img {
+  width: 60px;
+  height: 55px;
+}
+
+.toolbar {
+  background-color: white;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLinks a + a {
+  margin-left: 100px;
+}
+
+.custom-link.active {
+  color: #d73b1e;
+}
+
+.nav-title{
+  color: #d73b1e;
+  //font-weight: bold;
+  font-size: 30px;
+}
+
+.nav-desc{
+  color:#d73b1e;
+}
+
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.description {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+
+.chips {
+  margin-left: 400px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.my-5 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 1084px) {
+  .description {
+    font-size: 14px;
+    /* Adjust the font size as per your requirements */
+  }
+}
+
+@media screen and (max-width: 581px) {
+  .description {
+    font-size: 10px;
+    /* Adjust the font size as per your requirements */
+  }
+}
+
+
+
+.custom-link {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.data-resource {
+  font-size: 25px;
+  color: red;
+}
+
+

@@ -1,0 +1,31 @@
+<section *ngIf="isCarsDataVisible" class="shrink-tabs mb-5">
+    <mat-card class="d-flex mt-3 py-4">
+        <div class="d-flex flex-wrap justify-content-between mx-5 align-items-center">
+            <div>
+                <h2>My Orders</h2>
+            </div>
+                <div class="view-settings-button">
+                <app-table-headers-dropdown
+                        [tableHeaders]="ordersColumnDef"
+                        [allTableHeaders]="allTableHeaders"
+                        (updatedHeaders)="setHeadersForCarsData($event)"
+                >
+                </app-table-headers-dropdown>
+            </div>
+        </div>
+        <ng-container *ngIf="orderData && orderData.length > 0; else showLoading">
+            <app-tabular-view [tableRows]="orderData" [tableHeaders]="ordersColumnDef">
+            </app-tabular-view>
+        </ng-container>
+        <ng-template #showLoading>
+            <div class="spinner mt-5">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="sr-only"></span>
+                </div>
+            </div>
+        </ng-template>
+    </mat-card>
+</section>
+<div *ngIf="!isCarsDataVisible" class = "centered-content">
+    <img src="assets/images/noData.png" alt="No data" style="width: 30%; height: 30%">
+</div>

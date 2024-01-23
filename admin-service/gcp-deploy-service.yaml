@@ -1,0 +1,60 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: adminservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: adminservice
+  template:
+    metadata:
+      labels:
+        app: adminservice
+    spec:
+      volumes:
+        - name: google-cloud-keys
+          secret:
+            secretName: gac-key
+      containers:
+        - name: adminservice
+          image: gcr.io/PROJECT_ID/IMAGE:TAG
+          imagePullPolicy: Always
+          ports:
+            - name: http
+              containerPort: 8080
+              protocol: TCP
+          volumeMounts:
+            - name: google-cloud-keys
+              mountPath: /var/secrets/google
+              readOnly: true
+          env:
+            - name: GOOGLE_APPLICATION_CREDENTIALS
+              value: /var/secrets/google/key.json
+          envFrom:
+            - configMapRef:
+                name: admin-configmap
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: adminservice
+spec:
+  selector:
+    app: adminservice
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  type: LoadBalancer
+
+---
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: admin-configmap
+data:
+  # Configuration values can be set as key-value properties
+  GCP_PROJECT_ID: datamesh-2
+  PUB_SUB_TOPIC_ID: vehicle

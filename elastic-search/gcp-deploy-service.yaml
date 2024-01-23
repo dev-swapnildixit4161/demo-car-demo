@@ -1,0 +1,65 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: elasticsearch
+  labels:
+    app: elasticsearch
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: elasticsearch
+  template:
+    metadata:
+      labels:
+        app: elasticsearch
+    spec:
+      volumes:
+        - name: google-cloud-keys
+          secret:
+            secretName: gac-key
+      containers:
+        - name: elasticsearch
+          image: gcr.io/PROJECT_ID/IMAGE:TAG
+          imagePullPolicy: Always
+          ports:
+            - name: http
+              containerPort: 9097
+              protocol: TCP
+          volumeMounts:
+            - name: google-cloud-keys
+              mountPath: /var/secrets/google
+          env:
+            - name: GOOGLE_APPLICATION_CREDENTIALS
+              value: /var/secrets/google/key.json
+          envFrom:
+            - configMapRef:
+                name: elasticsearch-configmap
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: elasticsearch
+  labels:
+    app: elasticsearch
+spec:
+  ports:
+    - name: http
+      port: 9097
+      targetPort: 9097
+  selector:
+    app: elasticsearch
+  type: LoadBalancer
+---
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: elasticsearch-configmap
+data:
+  # Configuration values can be set as key-value properties
+  SERVICE_NAME: ElasticsearchService
+  GCP_PROJECT_ID: datamesh-2
+  PUB_SUB_SUBSCRIPTION: vehicle-subscription
+  ELASTICSEARCH_HOST: 34.23.97.151
+  ELASTICSEARCH_PORT: 9200
+  PUB_SUB_TOPIC_ID: vehicle

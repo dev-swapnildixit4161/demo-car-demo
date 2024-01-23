@@ -1,0 +1,5002 @@
+[
+  {
+    "brand_id": 1,
+    "brand_name": "Chevrolet",
+    "model": "Express 3500",
+    "year": 1998,
+    "color": "Fuscia",
+    "mileage": 24,
+    "price": "$7.68",
+    "location": "Shanghu"
+  },
+  {
+    "brand_id": 2,
+    "brand_name": "Chevrolet",
+    "model": "Corvette",
+    "year": 1978,
+    "color": "Mauv",
+    "mileage": 21,
+    "price": "$9.61",
+    "location": "Sarankhola"
+  },
+  {
+    "brand_id": 3,
+    "brand_name": "Chevrolet",
+    "model": "Suburban 2500",
+    "year": 2003,
+    "color": "Red",
+    "mileage": 17,
+    "price": "$4.49",
+    "location": "Saseel"
+  },
+  {
+    "brand_id": 4,
+    "brand_name": "Ford",
+    "model": "Ranger",
+    "year": 1984,
+    "color": "Indigo",
+    "mileage": 14,
+    "price": "$4.87",
+    "location": "San Andrés"
+  },
+  {
+    "brand_id": 5,
+    "brand_name": "Mercedes-Benz",
+    "model": "600SL",
+    "year": 1993,
+    "color": "Violet",
+    "mileage": 22,
+    "price": "$6.49",
+    "location": "Pasarbaru"
+  },
+  {
+    "brand_id": 6,
+    "brand_name": "Land Rover",
+    "model": "Range Rover Sport",
+    "year": 2010,
+    "color": "Green",
+    "mileage": 14,
+    "price": "$7.61",
+    "location": "Aliuroba"
+  },
+  {
+    "brand_id": 7,
+    "brand_name": "Ford",
+    "model": "Aerostar",
+    "year": 1993,
+    "color": "Maroon",
+    "mileage": 16,
+    "price": "$0.35",
+    "location": "Panawuan"
+  },
+  {
+    "brand_id": 8,
+    "brand_name": "Toyota",
+    "model": "Solara",
+    "year": 2007,
+    "color": "Aquamarine",
+    "mileage": 18,
+    "price": "$8.11",
+    "location": "Kertasari"
+  },
+  {
+    "brand_id": 9,
+    "brand_name": "Volkswagen",
+    "model": "Golf",
+    "year": 1997,
+    "color": "Red",
+    "mileage": 16,
+    "price": "$1.76",
+    "location": "Llanera"
+  },
+  {
+    "brand_id": 10,
+    "brand_name": "Mazda",
+    "model": "MX-3",
+    "year": 1994,
+    "color": "Khaki",
+    "mileage": 24,
+    "price": "$4.77",
+    "location": "Jalaud"
+  },
+  {
+    "brand_id": 11,
+    "brand_name": "Mitsubishi",
+    "model": "Mirage",
+    "year": 1994,
+    "color": "Pink",
+    "mileage": 12,
+    "price": "$9.53",
+    "location": "Bojadła"
+  },
+  {
+    "brand_id": 12,
+    "brand_name": "Dodge",
+    "model": "Ram 2500",
+    "year": 2001,
+    "color": "Green",
+    "mileage": 13,
+    "price": "$7.94",
+    "location": "Jiuxian"
+  },
+  {
+    "brand_id": 13,
+    "brand_name": "Ford",
+    "model": "E-Series",
+    "year": 2001,
+    "color": "Turquoise",
+    "mileage": 21,
+    "price": "$8.80",
+    "location": "Saltsjö-Boo"
+  },
+  {
+    "brand_id": 14,
+    "brand_name": "Isuzu",
+    "model": "Hombre Space",
+    "year": 1997,
+    "color": "Red",
+    "mileage": 17,
+    "price": "$2.76",
+    "location": "Independencia"
+  },
+  {
+    "brand_id": 15,
+    "brand_name": "Dodge",
+    "model": "Neon",
+    "year": 1998,
+    "color": "Aquamarine",
+    "mileage": 21,
+    "price": "$5.60",
+    "location": "Józefów"
+  },
+  {
+    "brand_id": 16,
+    "brand_name": "BMW",
+    "model": "7 Series",
+    "year": 1998,
+    "color": "Goldenrod",
+    "mileage": 16,
+    "price": "$2.08",
+    "location": "Zalţan"
+  },
+  {
+    "brand_id": 17,
+    "brand_name": "Lexus",
+    "model": "IS",
+    "year": 2004,
+    "color": "Puce",
+    "mileage": 23,
+    "price": "$0.94",
+    "location": "Froly"
+  },
+  {
+    "brand_id": 18,
+    "brand_name": "Buick",
+    "model": "LeSabre",
+    "year": 1997,
+    "color": "Turquoise",
+    "mileage": 17,
+    "price": "$8.92",
+    "location": "Pohbango"
+  },
+  {
+    "brand_id": 19,
+    "brand_name": "Audi",
+    "model": "A8",
+    "year": 2007,
+    "color": "Orange",
+    "mileage": 15,
+    "price": "$3.30",
+    "location": "Lapa"
+  },
+  {
+    "brand_id": 20,
+    "brand_name": "Land Rover",
+    "model": "Discovery",
+    "year": 2006,
+    "color": "Khaki",
+    "mileage": 15,
+    "price": "$6.74",
+    "location": "Abilay"
+  },
+  {
+    "brand_id": 21,
+    "brand_name": "Mitsubishi",
+    "model": "Diamante",
+    "year": 1996,
+    "color": "Orange",
+    "mileage": 13,
+    "price": "$1.89",
+    "location": "Cempa"
+  },
+  {
+    "brand_id": 22,
+    "brand_name": "Chevrolet",
+    "model": "Traverse",
+    "year": 2011,
+    "color": "Mauv",
+    "mileage": 22,
+    "price": "$9.64",
+    "location": "Dongfeng"
+  },
+  {
+    "brand_id": 23,
+    "brand_name": "Chevrolet",
+    "model": "Silverado 1500",
+    "year": 2005,
+    "color": "Pink",
+    "mileage": 25,
+    "price": "$9.52",
+    "location": "Saipan"
+  },
+  {
+    "brand_id": 24,
+    "brand_name": "Audi",
+    "model": "5000S",
+    "year": 1987,
+    "color": "Crimson",
+    "mileage": 21,
+    "price": "$2.78",
+    "location": "Lunao"
+  },
+  {
+    "brand_id": 25,
+    "brand_name": "Chevrolet",
+    "model": "Beretta",
+    "year": 1993,
+    "color": "Red",
+    "mileage": 19,
+    "price": "$9.39",
+    "location": "Karangasem Laok"
+  },
+  {
+    "brand_id": 26,
+    "brand_name": "Porsche",
+    "model": "928",
+    "year": 1990,
+    "color": "Teal",
+    "mileage": 25,
+    "price": "$7.02",
+    "location": "Porto Martins"
+  },
+  {
+    "brand_id": 27,
+    "brand_name": "Mercedes-Benz",
+    "model": "SLK-Class",
+    "year": 2001,
+    "color": "Puce",
+    "mileage": 22,
+    "price": "$6.51",
+    "location": "Arcoverde"
+  },
+  {
+    "brand_id": 28,
+    "brand_name": "Volvo",
+    "model": "S60",
+    "year": 2005,
+    "color": "Indigo",
+    "mileage": 22,
+    "price": "$6.27",
+    "location": "Zengtian"
+  },
+  {
+    "brand_id": 29,
+    "brand_name": "Buick",
+    "model": "Skylark",
+    "year": 1998,
+    "color": "Yellow",
+    "mileage": 23,
+    "price": "$3.29",
+    "location": "Magisterial"
+  },
+  {
+    "brand_id": 30,
+    "brand_name": "BMW",
+    "model": "3 Series",
+    "year": 2007,
+    "color": "Fuscia",
+    "mileage": 23,
+    "price": "$4.33",
+    "location": "Vistino"
+  },
+  {
+    "brand_id": 31,
+    "brand_name": "Kia",
+    "model": "Optima",
+    "year": 2005,
+    "color": "Aquamarine",
+    "mileage": 17,
+    "price": "$1.30",
+    "location": "Gò Dầu"
+  },
+  {
+    "brand_id": 32,
+    "brand_name": "Chevrolet",
+    "model": "Suburban 2500",
+    "year": 2009,
+    "color": "Indigo",
+    "mileage": 24,
+    "price": "$3.85",
+    "location": "Paritjunus"
+  },
+  {
+    "brand_id": 33,
+    "brand_name": "Honda",
+    "model": "Ridgeline",
+    "year": 2009,
+    "color": "Crimson",
+    "mileage": 21,
+    "price": "$4.58",
+    "location": "Tékane"
+  },
+  {
+    "brand_id": 34,
+    "brand_name": "Dodge",
+    "model": "Dynasty",
+    "year": 1993,
+    "color": "Goldenrod",
+    "mileage": 13,
+    "price": "$2.36",
+    "location": "Santa Rita"
+  },
+  {
+    "brand_id": 35,
+    "brand_name": "Mitsubishi",
+    "model": "Diamante",
+    "year": 1998,
+    "color": "Teal",
+    "mileage": 13,
+    "price": "$2.48",
+    "location": "Yihe"
+  },
+  {
+    "brand_id": 36,
+    "brand_name": "Chevrolet",
+    "model": "3500",
+    "year": 1995,
+    "color": "Yellow",
+    "mileage": 13,
+    "price": "$1.43",
+    "location": "Iralaya"
+  },
+  {
+    "brand_id": 37,
+    "brand_name": "Ford",
+    "model": "Aerostar",
+    "year": 1988,
+    "color": "Khaki",
+    "mileage": 15,
+    "price": "$1.97",
+    "location": "Samanco"
+  },
+  {
+    "brand_id": 38,
+    "brand_name": "Suzuki",
+    "model": "Equator",
+    "year": 2009,
+    "color": "Blue",
+    "mileage": 25,
+    "price": "$4.82",
+    "location": "Arteni"
+  },
+  {
+    "brand_id": 39,
+    "brand_name": "GMC",
+    "model": "Envoy XL",
+    "year": 2005,
+    "color": "Maroon",
+    "mileage": 23,
+    "price": "$3.00",
+    "location": "Mazańcowice"
+  },
+  {
+    "brand_id": 40,
+    "brand_name": "BMW",
+    "model": "Z3",
+    "year": 1998,
+    "color": "Pink",
+    "mileage": 15,
+    "price": "$9.18",
+    "location": "Taavetti"
+  },
+  {
+    "brand_id": 41,
+    "brand_name": "Buick",
+    "model": "Rendezvous",
+    "year": 2005,
+    "color": "Indigo",
+    "mileage": 15,
+    "price": "$4.86",
+    "location": "Kez"
+  },
+  {
+    "brand_id": 42,
+    "brand_name": "Mitsubishi",
+    "model": "Excel",
+    "year": 1987,
+    "color": "Aquamarine",
+    "mileage": 15,
+    "price": "$6.85",
+    "location": "Zhongxian"
+  },
+  {
+    "brand_id": 43,
+    "brand_name": "Lincoln",
+    "model": "MKT",
+    "year": 2012,
+    "color": "Maroon",
+    "mileage": 24,
+    "price": "$2.07",
+    "location": "Pajeksan"
+  },
+  {
+    "brand_id": 44,
+    "brand_name": "Buick",
+    "model": "LeSabre",
+    "year": 1996,
+    "color": "Blue",
+    "mileage": 19,
+    "price": "$5.43",
+    "location": "Druzhny"
+  },
+  {
+    "brand_id": 45,
+    "brand_name": "Pontiac",
+    "model": "6000",
+    "year": 1983,
+    "color": "Mauv",
+    "mileage": 16,
+    "price": "$9.85",
+    "location": "Hongos"
+  },
+  {
+    "brand_id": 46,
+    "brand_name": "Jeep",
+    "model": "Compass",
+    "year": 2007,
+    "color": "Blue",
+    "mileage": 20,
+    "price": "$7.12",
+    "location": "Otrokovice"
+  },
+  {
+    "brand_id": 47,
+    "brand_name": "Pontiac",
+    "model": "Firebird",
+    "year": 2002,
+    "color": "Purple",
+    "mileage": 19,
+    "price": "$7.46",
+    "location": "Jackson"
+  },
+  {
+    "brand_id": 48,
+    "brand_name": "Chrysler",
+    "model": "Town & Country",
+    "year": 1999,
+    "color": "Mauv",
+    "mileage": 16,
+    "price": "$9.94",
+    "location": "Padre Bernardo"
+  },
+  {
+    "brand_id": 49,
+    "brand_name": "Pontiac",
+    "model": "Grand Am",
+    "year": 2000,
+    "color": "Blue",
+    "mileage": 17,
+    "price": "$8.60",
+    "location": "Sūq Sibāḩ"
+  },
+  {
+    "brand_id": 50,
+    "brand_name": "Toyota",
+    "model": "Camry",
+    "year": 2010,
+    "color": "Indigo",
+    "mileage": 24,
+    "price": "$2.92",
+    "location": "Mollepampa"
+  },
+  {
+    "brand_id": 51,
+    "brand_name": "Mazda",
+    "model": "RX-7",
+    "year": 1987,
+    "color": "Teal",
+    "mileage": 23,
+    "price": "$3.08",
+    "location": "Bekwai"
+  },
+  {
+    "brand_id": 52,
+    "brand_name": "Mitsubishi",
+    "model": "Eclipse",
+    "year": 2009,
+    "color": "Yellow",
+    "mileage": 22,
+    "price": "$6.73",
+    "location": "Morelos"
+  },
+  {
+    "brand_id": 53,
+    "brand_name": "Mitsubishi",
+    "model": "3000GT",
+    "year": 1997,
+    "color": "Fuscia",
+    "mileage": 22,
+    "price": "$7.72",
+    "location": "Kalāleh"
+  },
+  {
+    "brand_id": 54,
+    "brand_name": "Maybach",
+    "model": "62",
+    "year": 2006,
+    "color": "Khaki",
+    "mileage": 17,
+    "price": "$1.69",
+    "location": "Salisbury"
+  },
+  {
+    "brand_id": 55,
+    "brand_name": "Acura",
+    "model": "MDX",
+    "year": 2009,
+    "color": "Red",
+    "mileage": 19,
+    "price": "$6.82",
+    "location": "Pedra Azul"
+  },
+  {
+    "brand_id": 56,
+    "brand_name": "Isuzu",
+    "model": "Trooper",
+    "year": 1998,
+    "color": "Pink",
+    "mileage": 22,
+    "price": "$3.90",
+    "location": "Acevedo"
+  },
+  {
+    "brand_id": 57,
+    "brand_name": "Ford",
+    "model": "Transit Connect",
+    "year": 2010,
+    "color": "Puce",
+    "mileage": 16,
+    "price": "$1.61",
+    "location": "Rio Branco"
+  },
+  {
+    "brand_id": 58,
+    "brand_name": "Jaguar",
+    "model": "XJ",
+    "year": 2009,
+    "color": "Blue",
+    "mileage": 24,
+    "price": "$9.29",
+    "location": "Talavera"
+  },
+  {
+    "brand_id": 59,
+    "brand_name": "Audi",
+    "model": "Q5",
+    "year": 2011,
+    "color": "Puce",
+    "mileage": 25,
+    "price": "$8.61",
+    "location": "Azueira"
+  },
+  {
+    "brand_id": 60,
+    "brand_name": "Oldsmobile",
+    "model": "Intrigue",
+    "year": 1998,
+    "color": "Indigo",
+    "mileage": 13,
+    "price": "$9.29",
+    "location": "Candating"
+  },
+  {
+    "brand_id": 61,
+    "brand_name": "Toyota",
+    "model": "FJ Cruiser",
+    "year": 2009,
+    "color": "Fuscia",
+    "mileage": 20,
+    "price": "$6.98",
+    "location": "Buritizeiro"
+  },
+  {
+    "brand_id": 62,
+    "brand_name": "Chevrolet",
+    "model": "Tahoe",
+    "year": 1997,
+    "color": "Khaki",
+    "mileage": 16,
+    "price": "$6.72",
+    "location": "Lis"
+  },
+  {
+    "brand_id": 63,
+    "brand_name": "Mazda",
+    "model": "RX-7",
+    "year": 1994,
+    "color": "Crimson",
+    "mileage": 17,
+    "price": "$7.57",
+    "location": "Staraya Mayna"
+  },
+  {
+    "brand_id": 64,
+    "brand_name": "Lincoln",
+    "model": "Continental Mark VII",
+    "year": 1987,
+    "color": "Turquoise",
+    "mileage": 19,
+    "price": "$9.66",
+    "location": "Skövde"
+  },
+  {
+    "brand_id": 65,
+    "brand_name": "Jaguar",
+    "model": "X-Type",
+    "year": 2008,
+    "color": "Fuscia",
+    "mileage": 19,
+    "price": "$8.39",
+    "location": "Shilipu"
+  },
+  {
+    "brand_id": 66,
+    "brand_name": "Volvo",
+    "model": "960",
+    "year": 1996,
+    "color": "Teal",
+    "mileage": 16,
+    "price": "$2.82",
+    "location": "Kafr ad Dīk"
+  },
+  {
+    "brand_id": 67,
+    "brand_name": "BMW",
+    "model": "530",
+    "year": 2002,
+    "color": "Red",
+    "mileage": 22,
+    "price": "$4.31",
+    "location": "Hebian"
+  },
+  {
+    "brand_id": 68,
+    "brand_name": "Acura",
+    "model": "TL",
+    "year": 2011,
+    "color": "Orange",
+    "mileage": 20,
+    "price": "$4.16",
+    "location": "Itapetinga"
+  },
+  {
+    "brand_id": 69,
+    "brand_name": "Subaru",
+    "model": "Justy",
+    "year": 1994,
+    "color": "Mauv",
+    "mileage": 16,
+    "price": "$0.23",
+    "location": "Wushan"
+  },
+  {
+    "brand_id": 70,
+    "brand_name": "Plymouth",
+    "model": "Voyager",
+    "year": 1994,
+    "color": "Indigo",
+    "mileage": 21,
+    "price": "$9.73",
+    "location": "Purut"
+  },
+  {
+    "brand_id": 71,
+    "brand_name": "Jaguar",
+    "model": "X-Type",
+    "year": 2004,
+    "color": "Turquoise",
+    "mileage": 14,
+    "price": "$8.18",
+    "location": "Mungui"
+  },
+  {
+    "brand_id": 72,
+    "brand_name": "Land Rover",
+    "model": "Range Rover",
+    "year": 2010,
+    "color": "Violet",
+    "mileage": 24,
+    "price": "$6.20",
+    "location": "Baculongan"
+  },
+  {
+    "brand_id": 73,
+    "brand_name": "Audi",
+    "model": "A8",
+    "year": 2008,
+    "color": "Teal",
+    "mileage": 20,
+    "price": "$2.45",
+    "location": "Shunde"
+  },
+  {
+    "brand_id": 74,
+    "brand_name": "Ford",
+    "model": "Five Hundred",
+    "year": 2006,
+    "color": "Violet",
+    "mileage": 14,
+    "price": "$4.43",
+    "location": "Bandungan Timur"
+  },
+  {
+    "brand_id": 75,
+    "brand_name": "Dodge",
+    "model": "Dakota Club",
+    "year": 2004,
+    "color": "Turquoise",
+    "mileage": 22,
+    "price": "$6.82",
+    "location": "Marseille"
+  },
+  {
+    "brand_id": 76,
+    "brand_name": "Audi",
+    "model": "S4",
+    "year": 2009,
+    "color": "Orange",
+    "mileage": 16,
+    "price": "$4.30",
+    "location": "Oleksandrivka"
+  },
+  {
+    "brand_id": 77,
+    "brand_name": "Chevrolet",
+    "model": "Colorado",
+    "year": 2008,
+    "color": "Blue",
+    "mileage": 16,
+    "price": "$7.67",
+    "location": "Baoli"
+  },
+  {
+    "brand_id": 78,
+    "brand_name": "Porsche",
+    "model": "Cayman",
+    "year": 2008,
+    "color": "Crimson",
+    "mileage": 20,
+    "price": "$5.26",
+    "location": "Looc"
+  },
+  {
+    "brand_id": 79,
+    "brand_name": "Cadillac",
+    "model": "DTS",
+    "year": 2011,
+    "color": "Crimson",
+    "mileage": 20,
+    "price": "$2.42",
+    "location": "Dambarta"
+  },
+  {
+    "brand_id": 80,
+    "brand_name": "Chevrolet",
+    "model": "Express 1500",
+    "year": 2008,
+    "color": "Turquoise",
+    "mileage": 13,
+    "price": "$1.75",
+    "location": "Ouzini"
+  },
+  {
+    "brand_id": 81,
+    "brand_name": "Mercedes-Benz",
+    "model": "CL-Class",
+    "year": 2007,
+    "color": "Green",
+    "mileage": 12,
+    "price": "$8.25",
+    "location": "Ha’erlong"
+  },
+  {
+    "brand_id": 82,
+    "brand_name": "Chrysler",
+    "model": "LHS",
+    "year": 1997,
+    "color": "Goldenrod",
+    "mileage": 19,
+    "price": "$6.59",
+    "location": "Pyatovskiy"
+  },
+  {
+    "brand_id": 83,
+    "brand_name": "Mazda",
+    "model": "CX-7",
+    "year": 2010,
+    "color": "Pink",
+    "mileage": 21,
+    "price": "$4.81",
+    "location": "Poligny"
+  },
+  {
+    "brand_id": 84,
+    "brand_name": "Mitsubishi",
+    "model": "Mirage",
+    "year": 1997,
+    "color": "Maroon",
+    "mileage": 12,
+    "price": "$3.75",
+    "location": "Sitabamba"
+  },
+  {
+    "brand_id": 85,
+    "brand_name": "Subaru",
+    "model": "Justy",
+    "year": 1992,
+    "color": "Green",
+    "mileage": 23,
+    "price": "$5.58",
+    "location": "Wuchagou"
+  },
+  {
+    "brand_id": 86,
+    "brand_name": "Toyota",
+    "model": "Camry Hybrid",
+    "year": 2007,
+    "color": "Khaki",
+    "mileage": 12,
+    "price": "$9.92",
+    "location": "Kovářov"
+  },
+  {
+    "brand_id": 87,
+    "brand_name": "Mitsubishi",
+    "model": "Starion",
+    "year": 1985,
+    "color": "Teal",
+    "mileage": 22,
+    "price": "$9.20",
+    "location": "Pagedangan"
+  },
+  {
+    "brand_id": 88,
+    "brand_name": "Buick",
+    "model": "Regal",
+    "year": 1986,
+    "color": "Fuscia",
+    "mileage": 17,
+    "price": "$6.43",
+    "location": "Chiang Rai"
+  },
+  {
+    "brand_id": 89,
+    "brand_name": "Toyota",
+    "model": "Matrix",
+    "year": 2004,
+    "color": "Orange",
+    "mileage": 17,
+    "price": "$2.29",
+    "location": "Heting"
+  },
+  {
+    "brand_id": 90,
+    "brand_name": "GMC",
+    "model": "Savana 3500",
+    "year": 1997,
+    "color": "Aquamarine",
+    "mileage": 24,
+    "price": "$4.66",
+    "location": "Ágios Týchon"
+  },
+  {
+    "brand_id": 91,
+    "brand_name": "Tesla",
+    "model": "Roadster",
+    "year": 2010,
+    "color": "Blue",
+    "mileage": 19,
+    "price": "$3.69",
+    "location": "Oslo"
+  },
+  {
+    "brand_id": 92,
+    "brand_name": "Land Rover",
+    "model": "Range Rover Sport",
+    "year": 2008,
+    "color": "Goldenrod",
+    "mileage": 25,
+    "price": "$3.78",
+    "location": "Pasir Mas"
+  },
+  {
+    "brand_id": 93,
+    "brand_name": "Lexus",
+    "model": "LX",
+    "year": 2006,
+    "color": "Khaki",
+    "mileage": 24,
+    "price": "$1.48",
+    "location": "Vievis"
+  },
+  {
+    "brand_id": 94,
+    "brand_name": "Toyota",
+    "model": "Camry Solara",
+    "year": 2008,
+    "color": "Maroon",
+    "mileage": 20,
+    "price": "$9.36",
+    "location": "Chãos"
+  },
+  {
+    "brand_id": 95,
+    "brand_name": "Jeep",
+    "model": "Cherokee",
+    "year": 1992,
+    "color": "Indigo",
+    "mileage": 20,
+    "price": "$8.11",
+    "location": "Siayan"
+  },
+  {
+    "brand_id": 96,
+    "brand_name": "Kia",
+    "model": "Spectra",
+    "year": 2009,
+    "color": "Indigo",
+    "mileage": 14,
+    "price": "$4.34",
+    "location": "Chenzhou"
+  },
+  {
+    "brand_id": 97,
+    "brand_name": "Dodge",
+    "model": "Stealth",
+    "year": 1993,
+    "color": "Goldenrod",
+    "mileage": 21,
+    "price": "$6.97",
+    "location": "Mesiméri"
+  },
+  {
+    "brand_id": 98,
+    "brand_name": "Maserati",
+    "model": "Spyder",
+    "year": 2004,
+    "color": "Purple",
+    "mileage": 19,
+    "price": "$9.41",
+    "location": "Hronov"
+  },
+  {
+    "brand_id": 99,
+    "brand_name": "Toyota",
+    "model": "4Runner",
+    "year": 2009,
+    "color": "Red",
+    "mileage": 20,
+    "price": "$2.12",
+    "location": "Turpo"
+  },
+  {
+    "brand_id": 100,
+    "brand_name": "BMW",
+    "model": "X6 M",
+    "year": 2011,
+    "color": "Purple",
+    "mileage": 25,
+    "price": "$5.90",
+    "location": "Barraute"
+  },
+  {
+    "brand_id": 101,
+    "brand_name": "Isuzu",
+    "model": "Rodeo",
+    "year": 1997,
+    "color": "Yellow",
+    "mileage": 22,
+    "price": "$0.43",
+    "location": "Shalazhi"
+  },
+  {
+    "brand_id": 102,
+    "brand_name": "Mercury",
+    "model": "Sable",
+    "year": 1995,
+    "color": "Green",
+    "mileage": 25,
+    "price": "$4.40",
+    "location": "Udomlya"
+  },
+  {
+    "brand_id": 103,
+    "brand_name": "Cadillac",
+    "model": "CTS-V",
+    "year": 2012,
+    "color": "Green",
+    "mileage": 17,
+    "price": "$7.22",
+    "location": "Paris 08"
+  },
+  {
+    "brand_id": 104,
+    "brand_name": "Chevrolet",
+    "model": "Corvette",
+    "year": 1993,
+    "color": "Turquoise",
+    "mileage": 19,
+    "price": "$4.67",
+    "location": "Pleiku"
+  },
+  {
+    "brand_id": 105,
+    "brand_name": "Volvo",
+    "model": "V50",
+    "year": 2005,
+    "color": "Indigo",
+    "mileage": 13,
+    "price": "$8.10",
+    "location": "Vershino-Shakhtaminskiy"
+  },
+  {
+    "brand_id": 106,
+    "brand_name": "Cadillac",
+    "model": "Fleetwood",
+    "year": 1994,
+    "color": "Fuscia",
+    "mileage": 16,
+    "price": "$0.56",
+    "location": "Osasco"
+  },
+  {
+    "brand_id": 107,
+    "brand_name": "GMC",
+    "model": "3500",
+    "year": 1998,
+    "color": "Crimson",
+    "mileage": 22,
+    "price": "$3.64",
+    "location": "Gadžin Han"
+  },
+  {
+    "brand_id": 108,
+    "brand_name": "Ford",
+    "model": "F-Series",
+    "year": 1989,
+    "color": "Goldenrod",
+    "mileage": 15,
+    "price": "$0.21",
+    "location": "Mizque"
+  },
+  {
+    "brand_id": 109,
+    "brand_name": "Pontiac",
+    "model": "Grand Am",
+    "year": 1992,
+    "color": "Blue",
+    "mileage": 20,
+    "price": "$0.24",
+    "location": "Kubangkondang"
+  },
+  {
+    "brand_id": 110,
+    "brand_name": "GMC",
+    "model": "Suburban 1500",
+    "year": 1994,
+    "color": "Fuscia",
+    "mileage": 15,
+    "price": "$1.50",
+    "location": "Sulo"
+  },
+  {
+    "brand_id": 111,
+    "brand_name": "Volkswagen",
+    "model": "Jetta",
+    "year": 1989,
+    "color": "Puce",
+    "mileage": 21,
+    "price": "$5.32",
+    "location": "Greensboro"
+  },
+  {
+    "brand_id": 112,
+    "brand_name": "Honda",
+    "model": "Insight",
+    "year": 2002,
+    "color": "Crimson",
+    "mileage": 14,
+    "price": "$0.95",
+    "location": "Kebon"
+  },
+  {
+    "brand_id": 113,
+    "brand_name": "Buick",
+    "model": "Rainier",
+    "year": 2006,
+    "color": "Blue",
+    "mileage": 15,
+    "price": "$7.61",
+    "location": "Bodø"
+  },
+  {
+    "brand_id": 114,
+    "brand_name": "Dodge",
+    "model": "Neon",
+    "year": 2003,
+    "color": "Pink",
+    "mileage": 21,
+    "price": "$5.85",
+    "location": "Marseille"
+  },
+  {
+    "brand_id": 115,
+    "brand_name": "Chevrolet",
+    "model": "Express 1500",
+    "year": 2007,
+    "color": "Fuscia",
+    "mileage": 14,
+    "price": "$3.89",
+    "location": "Uście Gorlickie"
+  },
+  {
+    "brand_id": 116,
+    "brand_name": "Pontiac",
+    "model": "Bonneville",
+    "year": 2002,
+    "color": "Orange",
+    "mileage": 18,
+    "price": "$9.86",
+    "location": "Tanamiting"
+  },
+  {
+    "brand_id": 117,
+    "brand_name": "Mercury",
+    "model": "Mountaineer",
+    "year": 2006,
+    "color": "Green",
+    "mileage": 16,
+    "price": "$5.37",
+    "location": "Piraju"
+  },
+  {
+    "brand_id": 118,
+    "brand_name": "Lamborghini",
+    "model": "Murciélago",
+    "year": 2009,
+    "color": "Turquoise",
+    "mileage": 13,
+    "price": "$6.86",
+    "location": "Slobodskoy"
+  },
+  {
+    "brand_id": 119,
+    "brand_name": "GMC",
+    "model": "3500 Club Coupe",
+    "year": 1998,
+    "color": "Turquoise",
+    "mileage": 14,
+    "price": "$4.18",
+    "location": "Venda do Alcaide"
+  },
+  {
+    "brand_id": 120,
+    "brand_name": "Lincoln",
+    "model": "Continental",
+    "year": 1992,
+    "color": "Indigo",
+    "mileage": 16,
+    "price": "$9.44",
+    "location": "Buenaventura"
+  },
+  {
+    "brand_id": 121,
+    "brand_name": "Volvo",
+    "model": "960",
+    "year": 1995,
+    "color": "Crimson",
+    "mileage": 21,
+    "price": "$8.66",
+    "location": "North Battleford"
+  },
+  {
+    "brand_id": 122,
+    "brand_name": "Acura",
+    "model": "TSX",
+    "year": 2009,
+    "color": "Indigo",
+    "mileage": 23,
+    "price": "$7.14",
+    "location": "Rakitovo"
+  },
+  {
+    "brand_id": 123,
+    "brand_name": "Mazda",
+    "model": "RX-7",
+    "year": 1987,
+    "color": "Orange",
+    "mileage": 13,
+    "price": "$8.39",
+    "location": "Quchomo"
+  },
+  {
+    "brand_id": 124,
+    "brand_name": "Honda",
+    "model": "Insight",
+    "year": 2002,
+    "color": "Fuscia",
+    "mileage": 25,
+    "price": "$9.20",
+    "location": "Qianjin"
+  },
+  {
+    "brand_id": 125,
+    "brand_name": "Ford",
+    "model": "F-Series",
+    "year": 2003,
+    "color": "Yellow",
+    "mileage": 13,
+    "price": "$5.89",
+    "location": "Pamatang"
+  },
+  {
+    "brand_id": 126,
+    "brand_name": "Ford",
+    "model": "Ranger",
+    "year": 1994,
+    "color": "Maroon",
+    "mileage": 19,
+    "price": "$9.86",
+    "location": "Fyllingsdalen"
+  },
+  {
+    "brand_id": 127,
+    "brand_name": "Toyota",
+    "model": "Tercel",
+    "year": 1995,
+    "color": "Crimson",
+    "mileage": 13,
+    "price": "$9.85",
+    "location": "Emiliano Zapata"
+  },
+  {
+    "brand_id": 128,
+    "brand_name": "Infiniti",
+    "model": "I",
+    "year": 2002,
+    "color": "Khaki",
+    "mileage": 20,
+    "price": "$5.67",
+    "location": "Bangkok"
+  },
+  {
+    "brand_id": 129,
+    "brand_name": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2010,
+    "color": "Purple",
+    "mileage": 24,
+    "price": "$6.95",
+    "location": "Neklyudovo"
+  },
+  {
+    "brand_id": 130,
+    "brand_name": "Toyota",
+    "model": "Solara",
+    "year": 2002,
+    "color": "Orange",
+    "mileage": 24,
+    "price": "$1.19",
+    "location": "Daxing"
+  },
+  {
+    "brand_id": 131,
+    "brand_name": "Jeep",
+    "model": "Wrangler",
+    "year": 1994,
+    "color": "Green",
+    "mileage": 13,
+    "price": "$5.49",
+    "location": "Taocun"
+  },
+  {
+    "brand_id": 132,
+    "brand_name": "Eagle",
+    "model": "Premier",
+    "year": 1992,
+    "color": "Pink",
+    "mileage": 22,
+    "price": "$0.26",
+    "location": "Caoping"
+  },
+  {
+    "brand_id": 133,
+    "brand_name": "Buick",
+    "model": "Skyhawk",
+    "year": 1985,
+    "color": "Blue",
+    "mileage": 15,
+    "price": "$1.95",
+    "location": "Dasht-e Archī"
+  },
+  {
+    "brand_id": 134,
+    "brand_name": "Pontiac",
+    "model": "Grand Prix",
+    "year": 1985,
+    "color": "Green",
+    "mileage": 23,
+    "price": "$8.65",
+    "location": "Ćićevac"
+  },
+  {
+    "brand_id": 135,
+    "brand_name": "Lexus",
+    "model": "LX",
+    "year": 1998,
+    "color": "Mauv",
+    "mileage": 23,
+    "price": "$6.42",
+    "location": "Dondar Quşçu"
+  },
+  {
+    "brand_id": 136,
+    "brand_name": "Mitsubishi",
+    "model": "Pajero",
+    "year": 1988,
+    "color": "Violet",
+    "mileage": 15,
+    "price": "$5.67",
+    "location": "Fort Lauderdale"
+  },
+  {
+    "brand_id": 137,
+    "brand_name": "Mitsubishi",
+    "model": "Galant",
+    "year": 1991,
+    "color": "Yellow",
+    "mileage": 16,
+    "price": "$0.65",
+    "location": "Trancas"
+  },
+  {
+    "brand_id": 138,
+    "brand_name": "Ford",
+    "model": "F150",
+    "year": 1984,
+    "color": "Red",
+    "mileage": 19,
+    "price": "$4.84",
+    "location": "Chợ Mới"
+  },
+  {
+    "brand_id": 139,
+    "brand_name": "Hyundai",
+    "model": "HED-5",
+    "year": 2012,
+    "color": "Green",
+    "mileage": 12,
+    "price": "$6.78",
+    "location": "Albion"
+  },
+  {
+    "brand_id": 140,
+    "brand_name": "Lincoln",
+    "model": "Town Car",
+    "year": 1996,
+    "color": "Goldenrod",
+    "mileage": 14,
+    "price": "$1.88",
+    "location": "Tapon"
+  },
+  {
+    "brand_id": 141,
+    "brand_name": "Chevrolet",
+    "model": "Impala",
+    "year": 2010,
+    "color": "Puce",
+    "mileage": 12,
+    "price": "$8.28",
+    "location": "Orléans"
+  },
+  {
+    "brand_id": 142,
+    "brand_name": "Lincoln",
+    "model": "Aviator",
+    "year": 2005,
+    "color": "Aquamarine",
+    "mileage": 17,
+    "price": "$4.94",
+    "location": "Magarao"
+  },
+  {
+    "brand_id": 143,
+    "brand_name": "Infiniti",
+    "model": "G",
+    "year": 2012,
+    "color": "Red",
+    "mileage": 22,
+    "price": "$9.45",
+    "location": "Da Nang"
+  },
+  {
+    "brand_id": 144,
+    "brand_name": "Infiniti",
+    "model": "G",
+    "year": 1993,
+    "color": "Goldenrod",
+    "mileage": 14,
+    "price": "$9.20",
+    "location": "Guzhen"
+  },
+  {
+    "brand_id": 145,
+    "brand_name": "Dodge",
+    "model": "Caravan",
+    "year": 2002,
+    "color": "Pink",
+    "mileage": 22,
+    "price": "$8.11",
+    "location": "Palca"
+  },
+  {
+    "brand_id": 146,
+    "brand_name": "Lexus",
+    "model": "RX",
+    "year": 2002,
+    "color": "Goldenrod",
+    "mileage": 25,
+    "price": "$9.14",
+    "location": "Katrineholm"
+  },
+  {
+    "brand_id": 147,
+    "brand_name": "Audi",
+    "model": "A3",
+    "year": 2008,
+    "color": "Khaki",
+    "mileage": 20,
+    "price": "$2.29",
+    "location": "Pimian"
+  },
+  {
+    "brand_id": 148,
+    "brand_name": "Jaguar",
+    "model": "XK Series",
+    "year": 2004,
+    "color": "Red",
+    "mileage": 12,
+    "price": "$1.05",
+    "location": "Ku‘aydinah"
+  },
+  {
+    "brand_id": 149,
+    "brand_name": "Nissan",
+    "model": "Xterra",
+    "year": 2002,
+    "color": "Orange",
+    "mileage": 16,
+    "price": "$9.33",
+    "location": "Hoi"
+  },
+  {
+    "brand_id": 150,
+    "brand_name": "GMC",
+    "model": "Sierra 2500",
+    "year": 2009,
+    "color": "Yellow",
+    "mileage": 25,
+    "price": "$9.38",
+    "location": "Pombal"
+  },
+  {
+    "brand_id": 151,
+    "brand_name": "Dodge",
+    "model": "Ram",
+    "year": 2007,
+    "color": "Mauv",
+    "mileage": 16,
+    "price": "$1.84",
+    "location": "Poço Verde"
+  },
+  {
+    "brand_id": 152,
+    "brand_name": "Smart",
+    "model": "Fortwo",
+    "year": 2011,
+    "color": "Violet",
+    "mileage": 16,
+    "price": "$3.73",
+    "location": "Windusakti Hilir"
+  },
+  {
+    "brand_id": 153,
+    "brand_name": "Mercedes-Benz",
+    "model": "Sprinter 2500",
+    "year": 2011,
+    "color": "Goldenrod",
+    "mileage": 22,
+    "price": "$0.29",
+    "location": "Nikísiani"
+  },
+  {
+    "brand_id": 154,
+    "brand_name": "Mercury",
+    "model": "Mariner",
+    "year": 2005,
+    "color": "Orange",
+    "mileage": 17,
+    "price": "$4.15",
+    "location": "Renhe"
+  },
+  {
+    "brand_id": 155,
+    "brand_name": "Chevrolet",
+    "model": "Suburban 1500",
+    "year": 2006,
+    "color": "Red",
+    "mileage": 24,
+    "price": "$1.38",
+    "location": "Non Sung"
+  },
+  {
+    "brand_id": 156,
+    "brand_name": "Chevrolet",
+    "model": "Silverado 2500",
+    "year": 2004,
+    "color": "Orange",
+    "mileage": 24,
+    "price": "$3.28",
+    "location": "Wiśniewo"
+  },
+  {
+    "brand_id": 157,
+    "brand_name": "Buick",
+    "model": "Century",
+    "year": 1992,
+    "color": "Pink",
+    "mileage": 19,
+    "price": "$7.49",
+    "location": "Três Coroas"
+  },
+  {
+    "brand_id": 158,
+    "brand_name": "Maserati",
+    "model": "Coupe",
+    "year": 2006,
+    "color": "Blue",
+    "mileage": 17,
+    "price": "$9.98",
+    "location": "Sandaogou"
+  },
+  {
+    "brand_id": 159,
+    "brand_name": "Volvo",
+    "model": "C70",
+    "year": 2000,
+    "color": "Indigo",
+    "mileage": 15,
+    "price": "$6.75",
+    "location": "Zhijin"
+  },
+  {
+    "brand_id": 160,
+    "brand_name": "Lincoln",
+    "model": "Continental",
+    "year": 1985,
+    "color": "Crimson",
+    "mileage": 12,
+    "price": "$6.82",
+    "location": "Xinshi"
+  },
+  {
+    "brand_id": 161,
+    "brand_name": "Kia",
+    "model": "Amanti",
+    "year": 2004,
+    "color": "Turquoise",
+    "mileage": 16,
+    "price": "$0.54",
+    "location": "Mawlaik"
+  },
+  {
+    "brand_id": 162,
+    "brand_name": "Toyota",
+    "model": "FJ Cruiser",
+    "year": 2012,
+    "color": "Purple",
+    "mileage": 21,
+    "price": "$9.61",
+    "location": "Nanfeng"
+  },
+  {
+    "brand_id": 163,
+    "brand_name": "Infiniti",
+    "model": "Q",
+    "year": 1994,
+    "color": "Indigo",
+    "mileage": 13,
+    "price": "$3.24",
+    "location": "Cantuk Kidul"
+  },
+  {
+    "brand_id": 164,
+    "brand_name": "Infiniti",
+    "model": "EX",
+    "year": 2010,
+    "color": "Violet",
+    "mileage": 15,
+    "price": "$1.43",
+    "location": "Kefar Yona"
+  },
+  {
+    "brand_id": 165,
+    "brand_name": "Bentley",
+    "model": "Continental GT",
+    "year": 2007,
+    "color": "Orange",
+    "mileage": 16,
+    "price": "$4.63",
+    "location": "Wodzisław Śląski"
+  },
+  {
+    "brand_id": 166,
+    "brand_name": "Cadillac",
+    "model": "DeVille",
+    "year": 1992,
+    "color": "Fuscia",
+    "mileage": 20,
+    "price": "$1.79",
+    "location": "Nanzhao Chengguanzhen"
+  },
+  {
+    "brand_id": 167,
+    "brand_name": "Ford",
+    "model": "Excursion",
+    "year": 2000,
+    "color": "Violet",
+    "mileage": 14,
+    "price": "$9.28",
+    "location": "Laborde"
+  },
+  {
+    "brand_id": 168,
+    "brand_name": "Mazda",
+    "model": "626",
+    "year": 1984,
+    "color": "Violet",
+    "mileage": 16,
+    "price": "$6.85",
+    "location": "Luowan"
+  },
+  {
+    "brand_id": 169,
+    "brand_name": "Infiniti",
+    "model": "QX",
+    "year": 1999,
+    "color": "Fuscia",
+    "mileage": 20,
+    "price": "$0.43",
+    "location": "Palmas de Monte Alto"
+  },
+  {
+    "brand_id": 170,
+    "brand_name": "Toyota",
+    "model": "Avalon",
+    "year": 2008,
+    "color": "Green",
+    "mileage": 17,
+    "price": "$3.41",
+    "location": "Kalangan"
+  },
+  {
+    "brand_id": 171,
+    "brand_name": "Mitsubishi",
+    "model": "Mirage",
+    "year": 2001,
+    "color": "Blue",
+    "mileage": 15,
+    "price": "$7.15",
+    "location": "Mbouda"
+  },
+  {
+    "brand_id": 172,
+    "brand_name": "Ford",
+    "model": "Econoline E250",
+    "year": 1999,
+    "color": "Khaki",
+    "mileage": 23,
+    "price": "$6.09",
+    "location": "Szolnok"
+  },
+  {
+    "brand_id": 173,
+    "brand_name": "Mitsubishi",
+    "model": "GTO",
+    "year": 1997,
+    "color": "Yellow",
+    "mileage": 15,
+    "price": "$1.48",
+    "location": "Mlangali"
+  },
+  {
+    "brand_id": 174,
+    "brand_name": "Mercedes-Benz",
+    "model": "CL-Class",
+    "year": 2003,
+    "color": "Puce",
+    "mileage": 16,
+    "price": "$2.02",
+    "location": "Ilongero"
+  },
+  {
+    "brand_id": 175,
+    "brand_name": "Mercedes-Benz",
+    "model": "S-Class",
+    "year": 2001,
+    "color": "Mauv",
+    "mileage": 18,
+    "price": "$0.84",
+    "location": "Rēzekne"
+  },
+  {
+    "brand_id": 176,
+    "brand_name": "Ford",
+    "model": "Th!nk",
+    "year": 2002,
+    "color": "Khaki",
+    "mileage": 12,
+    "price": "$7.64",
+    "location": "Marneuli"
+  },
+  {
+    "brand_id": 177,
+    "brand_name": "Lexus",
+    "model": "LX",
+    "year": 2007,
+    "color": "Fuscia",
+    "mileage": 24,
+    "price": "$4.66",
+    "location": "Keswick"
+  },
+  {
+    "brand_id": 178,
+    "brand_name": "BMW",
+    "model": "X6 M",
+    "year": 2012,
+    "color": "Teal",
+    "mileage": 15,
+    "price": "$9.78",
+    "location": "Bentar"
+  },
+  {
+    "brand_id": 179,
+    "brand_name": "Volkswagen",
+    "model": "rio",
+    "year": 2002,
+    "color": "Purple",
+    "mileage": 13,
+    "price": "$9.29",
+    "location": "Dobrljin"
+  },
+  {
+    "brand_id": 180,
+    "brand_name": "Acura",
+    "model": "RL",
+    "year": 2005,
+    "color": "Puce",
+    "mileage": 21,
+    "price": "$7.79",
+    "location": "Lomé"
+  },
+  {
+    "brand_id": 181,
+    "brand_name": "Lincoln",
+    "model": "Navigator L",
+    "year": 2011,
+    "color": "Turquoise",
+    "mileage": 23,
+    "price": "$0.26",
+    "location": "Södertälje"
+  },
+  {
+    "brand_id": 182,
+    "brand_name": "Subaru",
+    "model": "Legacy",
+    "year": 1990,
+    "color": "Indigo",
+    "mileage": 22,
+    "price": "$7.41",
+    "location": "São Vicente"
+  },
+  {
+    "brand_id": 183,
+    "brand_name": "Lexus",
+    "model": "GX",
+    "year": 2008,
+    "color": "Fuscia",
+    "mileage": 23,
+    "price": "$8.43",
+    "location": "Meylan"
+  },
+  {
+    "brand_id": 184,
+    "brand_name": "Honda",
+    "model": "Accord",
+    "year": 1993,
+    "color": "Purple",
+    "mileage": 24,
+    "price": "$6.23",
+    "location": "Jacupiranga"
+  },
+  {
+    "brand_id": 185,
+    "brand_name": "Buick",
+    "model": "Century",
+    "year": 1988,
+    "color": "Pink",
+    "mileage": 12,
+    "price": "$2.61",
+    "location": "Bantog"
+  },
+  {
+    "brand_id": 186,
+    "brand_name": "Suzuki",
+    "model": "Sidekick",
+    "year": 1992,
+    "color": "Goldenrod",
+    "mileage": 24,
+    "price": "$2.59",
+    "location": "Baokou"
+  },
+  {
+    "brand_id": 187,
+    "brand_name": "Honda",
+    "model": "Prelude",
+    "year": 1997,
+    "color": "Khaki",
+    "mileage": 25,
+    "price": "$6.04",
+    "location": "Los Boquerones"
+  },
+  {
+    "brand_id": 188,
+    "brand_name": "Ford",
+    "model": "Flex",
+    "year": 2010,
+    "color": "Aquamarine",
+    "mileage": 23,
+    "price": "$7.65",
+    "location": "Bula"
+  },
+  {
+    "brand_id": 189,
+    "brand_name": "Pontiac",
+    "model": "Monterey",
+    "year": 2005,
+    "color": "Khaki",
+    "mileage": 20,
+    "price": "$6.34",
+    "location": "Áyios Vasílios"
+  },
+  {
+    "brand_id": 190,
+    "brand_name": "Dodge",
+    "model": "Neon",
+    "year": 2005,
+    "color": "Goldenrod",
+    "mileage": 25,
+    "price": "$4.19",
+    "location": "Orillia"
+  },
+  {
+    "brand_id": 191,
+    "brand_name": "Bentley",
+    "model": "Continental GTC",
+    "year": 2011,
+    "color": "Goldenrod",
+    "mileage": 20,
+    "price": "$3.56",
+    "location": "Machala"
+  },
+  {
+    "brand_id": 192,
+    "brand_name": "Mazda",
+    "model": "Mazda5",
+    "year": 2010,
+    "color": "Indigo",
+    "mileage": 14,
+    "price": "$9.00",
+    "location": "Béoumi"
+  },
+  {
+    "brand_id": 193,
+    "brand_name": "Mitsubishi",
+    "model": "Pajero",
+    "year": 1996,
+    "color": "Blue",
+    "mileage": 21,
+    "price": "$10.00",
+    "location": "Road Town"
+  },
+  {
+    "brand_id": 194,
+    "brand_name": "Buick",
+    "model": "LeSabre",
+    "year": 2004,
+    "color": "Goldenrod",
+    "mileage": 17,
+    "price": "$2.81",
+    "location": "Jelat"
+  },
+  {
+    "brand_id": 195,
+    "brand_name": "Mercedes-Benz",
+    "model": "SLR McLaren",
+    "year": 2008,
+    "color": "Violet",
+    "mileage": 15,
+    "price": "$5.95",
+    "location": "Barisāl"
+  },
+  {
+    "brand_id": 196,
+    "brand_name": "Oldsmobile",
+    "model": "Silhouette",
+    "year": 2000,
+    "color": "Crimson",
+    "mileage": 16,
+    "price": "$2.17",
+    "location": "Xilin"
+  },
+  {
+    "brand_id": 197,
+    "brand_name": "Chevrolet",
+    "model": "S10 Blazer",
+    "year": 1994,
+    "color": "Red",
+    "mileage": 17,
+    "price": "$7.86",
+    "location": "Jerusalem"
+  },
+  {
+    "brand_id": 198,
+    "brand_name": "Ford",
+    "model": "Econoline E250",
+    "year": 2001,
+    "color": "Teal",
+    "mileage": 20,
+    "price": "$0.30",
+    "location": "Vitória da Conquista"
+  },
+  {
+    "brand_id": 199,
+    "brand_name": "Hummer",
+    "model": "H1",
+    "year": 2006,
+    "color": "Goldenrod",
+    "mileage": 13,
+    "price": "$5.46",
+    "location": "Krajan Dermawuharjo"
+  },
+  {
+    "brand_id": 200,
+    "brand_name": "Dodge",
+    "model": "Caravan",
+    "year": 1999,
+    "color": "Crimson",
+    "mileage": 15,
+    "price": "$6.88",
+    "location": "Reims"
+  },
+  {
+    "brand_id": 201,
+    "brand_name": "Honda",
+    "model": "CR-V",
+    "year": 2010,
+    "color": "Pink",
+    "mileage": 23,
+    "price": "$0.63",
+    "location": "Przywidz"
+  },
+  {
+    "brand_id": 202,
+    "brand_name": "GMC",
+    "model": "Envoy",
+    "year": 2004,
+    "color": "Violet",
+    "mileage": 21,
+    "price": "$5.17",
+    "location": "São João dos Patos"
+  },
+  {
+    "brand_id": 203,
+    "brand_name": "Audi",
+    "model": "TT",
+    "year": 2002,
+    "color": "Pink",
+    "mileage": 23,
+    "price": "$6.76",
+    "location": "Khamis Mushait"
+  },
+  {
+    "brand_id": 204,
+    "brand_name": "Honda",
+    "model": "S2000",
+    "year": 2006,
+    "color": "Goldenrod",
+    "mileage": 25,
+    "price": "$9.16",
+    "location": "Zeqin"
+  },
+  {
+    "brand_id": 205,
+    "brand_name": "Mercury",
+    "model": "Mountaineer",
+    "year": 2009,
+    "color": "Goldenrod",
+    "mileage": 13,
+    "price": "$2.92",
+    "location": "Paris 10"
+  },
+  {
+    "brand_id": 206,
+    "brand_name": "Audi",
+    "model": "80",
+    "year": 1991,
+    "color": "Orange",
+    "mileage": 25,
+    "price": "$3.46",
+    "location": "Neochóri"
+  },
+  {
+    "brand_id": 207,
+    "brand_name": "Mercedes-Benz",
+    "model": "W201",
+    "year": 1992,
+    "color": "Aquamarine",
+    "mileage": 15,
+    "price": "$6.93",
+    "location": "Ziway"
+  },
+  {
+    "brand_id": 208,
+    "brand_name": "BMW",
+    "model": "3 Series",
+    "year": 2001,
+    "color": "Violet",
+    "mileage": 20,
+    "price": "$4.64",
+    "location": "Hongxi"
+  },
+  {
+    "brand_id": 209,
+    "brand_name": "Chrysler",
+    "model": "Cirrus",
+    "year": 1996,
+    "color": "Blue",
+    "mileage": 16,
+    "price": "$3.45",
+    "location": "Vynohradiv"
+  },
+  {
+    "brand_id": 210,
+    "brand_name": "Porsche",
+    "model": "911",
+    "year": 2007,
+    "color": "Blue",
+    "mileage": 16,
+    "price": "$6.77",
+    "location": "Margasana"
+  },
+  {
+    "brand_id": 211,
+    "brand_name": "Ford",
+    "model": "Probe",
+    "year": 1996,
+    "color": "Red",
+    "mileage": 20,
+    "price": "$4.29",
+    "location": "Giemdiem"
+  },
+  {
+    "brand_id": 212,
+    "brand_name": "Dodge",
+    "model": "Caravan",
+    "year": 2006,
+    "color": "Turquoise",
+    "mileage": 17,
+    "price": "$8.36",
+    "location": "Venda do Valador"
+  },
+  {
+    "brand_id": 213,
+    "brand_name": "Pontiac",
+    "model": "Firefly",
+    "year": 1985,
+    "color": "Aquamarine",
+    "mileage": 19,
+    "price": "$1.89",
+    "location": "Mananum"
+  },
+  {
+    "brand_id": 214,
+    "brand_name": "Nissan",
+    "model": "Xterra",
+    "year": 2012,
+    "color": "Goldenrod",
+    "mileage": 15,
+    "price": "$6.67",
+    "location": "Rantīs"
+  },
+  {
+    "brand_id": 215,
+    "brand_name": "Land Rover",
+    "model": "Range Rover",
+    "year": 2005,
+    "color": "Indigo",
+    "mileage": 19,
+    "price": "$5.76",
+    "location": "São João das Lampas"
+  },
+  {
+    "brand_id": 216,
+    "brand_name": "Ford",
+    "model": "F-Series",
+    "year": 1994,
+    "color": "Red",
+    "mileage": 15,
+    "price": "$4.63",
+    "location": "Gudang"
+  },
+  {
+    "brand_id": 217,
+    "brand_name": "Porsche",
+    "model": "Boxster",
+    "year": 2008,
+    "color": "Puce",
+    "mileage": 14,
+    "price": "$6.44",
+    "location": "Yŏng-dong"
+  },
+  {
+    "brand_id": 218,
+    "brand_name": "Volvo",
+    "model": "240",
+    "year": 1992,
+    "color": "Purple",
+    "mileage": 18,
+    "price": "$10.00",
+    "location": "Nueva Arica"
+  },
+  {
+    "brand_id": 219,
+    "brand_name": "Oldsmobile",
+    "model": "Cutlass Supreme",
+    "year": 1992,
+    "color": "Puce",
+    "mileage": 13,
+    "price": "$3.04",
+    "location": "Parczew"
+  },
+  {
+    "brand_id": 220,
+    "brand_name": "Mitsubishi",
+    "model": "Precis",
+    "year": 1990,
+    "color": "Red",
+    "mileage": 25,
+    "price": "$1.85",
+    "location": "Penedo"
+  },
+  {
+    "brand_id": 221,
+    "brand_name": "Dodge",
+    "model": "Ram 3500",
+    "year": 1999,
+    "color": "Khaki",
+    "mileage": 14,
+    "price": "$3.29",
+    "location": "Poxin"
+  },
+  {
+    "brand_id": 222,
+    "brand_name": "Toyota",
+    "model": "Sienna",
+    "year": 2004,
+    "color": "Red",
+    "mileage": 19,
+    "price": "$8.22",
+    "location": "Dobřív"
+  },
+  {
+    "brand_id": 223,
+    "brand_name": "Kia",
+    "model": "Sephia",
+    "year": 1998,
+    "color": "Maroon",
+    "mileage": 17,
+    "price": "$3.97",
+    "location": "San Quintin"
+  },
+  {
+    "brand_id": 224,
+    "brand_name": "BMW",
+    "model": "Z4 M Roadster",
+    "year": 2009,
+    "color": "Puce",
+    "mileage": 15,
+    "price": "$8.89",
+    "location": "Yueshan"
+  },
+  {
+    "brand_id": 225,
+    "brand_name": "Mazda",
+    "model": "Miata MX-5",
+    "year": 2011,
+    "color": "Indigo",
+    "mileage": 19,
+    "price": "$9.13",
+    "location": "Albuquerque"
+  },
+  {
+    "brand_id": 226,
+    "brand_name": "Pontiac",
+    "model": "Bonneville",
+    "year": 1998,
+    "color": "Turquoise",
+    "mileage": 20,
+    "price": "$2.43",
+    "location": "Changgou"
+  },
+  {
+    "brand_id": 227,
+    "brand_name": "Isuzu",
+    "model": "Hombre",
+    "year": 1996,
+    "color": "Green",
+    "mileage": 16,
+    "price": "$1.02",
+    "location": "Biguaçu"
+  },
+  {
+    "brand_id": 228,
+    "brand_name": "Pontiac",
+    "model": "Sunbird",
+    "year": 1984,
+    "color": "Maroon",
+    "mileage": 23,
+    "price": "$0.21",
+    "location": "Saint Louis"
+  },
+  {
+    "brand_id": 229,
+    "brand_name": "Acura",
+    "model": "Legend",
+    "year": 1989,
+    "color": "Blue",
+    "mileage": 16,
+    "price": "$1.66",
+    "location": "Sigaboy"
+  },
+  {
+    "brand_id": 230,
+    "brand_name": "Ford",
+    "model": "Courier",
+    "year": 1987,
+    "color": "Indigo",
+    "mileage": 17,
+    "price": "$8.00",
+    "location": "Honolulu"
+  },
+  {
+    "brand_id": 231,
+    "brand_name": "Nissan",
+    "model": "Altima",
+    "year": 2001,
+    "color": "Yellow",
+    "mileage": 13,
+    "price": "$4.07",
+    "location": "Esmeraldas"
+  },
+  {
+    "brand_id": 232,
+    "brand_name": "Buick",
+    "model": "Estate",
+    "year": 1989,
+    "color": "Khaki",
+    "mileage": 17,
+    "price": "$8.83",
+    "location": "Governador Valadares"
+  },
+  {
+    "brand_id": 233,
+    "brand_name": "Scion",
+    "model": "tC",
+    "year": 2005,
+    "color": "Red",
+    "mileage": 19,
+    "price": "$2.10",
+    "location": "Mamara"
+  },
+  {
+    "brand_id": 234,
+    "brand_name": "Pontiac",
+    "model": "Grand Prix",
+    "year": 1982,
+    "color": "Orange",
+    "mileage": 23,
+    "price": "$9.84",
+    "location": "Isdalstø"
+  },
+  {
+    "brand_id": 235,
+    "brand_name": "Honda",
+    "model": "CR-V",
+    "year": 2009,
+    "color": "Mauv",
+    "mileage": 17,
+    "price": "$2.46",
+    "location": "Picoto"
+  },
+  {
+    "brand_id": 236,
+    "brand_name": "Volkswagen",
+    "model": "GTI",
+    "year": 1990,
+    "color": "Mauv",
+    "mileage": 22,
+    "price": "$1.55",
+    "location": "Seseng"
+  },
+  {
+    "brand_id": 237,
+    "brand_name": "Morgan",
+    "model": "Aero 8",
+    "year": 2006,
+    "color": "Maroon",
+    "mileage": 20,
+    "price": "$0.59",
+    "location": "Miyoshi"
+  },
+  {
+    "brand_id": 238,
+    "brand_name": "Buick",
+    "model": "LeSabre",
+    "year": 1989,
+    "color": "Red",
+    "mileage": 24,
+    "price": "$7.16",
+    "location": "Nowosielce-Gniewosz"
+  },
+  {
+    "brand_id": 239,
+    "brand_name": "Mitsubishi",
+    "model": "3000GT",
+    "year": 1992,
+    "color": "Yellow",
+    "mileage": 15,
+    "price": "$6.77",
+    "location": "Gračec"
+  },
+  {
+    "brand_id": 240,
+    "brand_name": "Acura",
+    "model": "RL",
+    "year": 2008,
+    "color": "Violet",
+    "mileage": 19,
+    "price": "$8.68",
+    "location": "Dasha"
+  },
+  {
+    "brand_id": 241,
+    "brand_name": "Plymouth",
+    "model": "Colt Vista",
+    "year": 1992,
+    "color": "Mauv",
+    "mileage": 14,
+    "price": "$6.68",
+    "location": "Chenzhouzhai"
+  },
+  {
+    "brand_id": 242,
+    "brand_name": "BMW",
+    "model": "Z3",
+    "year": 2002,
+    "color": "Red",
+    "mileage": 19,
+    "price": "$2.77",
+    "location": "Las Americas"
+  },
+  {
+    "brand_id": 243,
+    "brand_name": "Toyota",
+    "model": "Paseo",
+    "year": 1992,
+    "color": "Crimson",
+    "mileage": 14,
+    "price": "$8.33",
+    "location": "Delgerhaan"
+  },
+  {
+    "brand_id": 244,
+    "brand_name": "Toyota",
+    "model": "Venza",
+    "year": 2012,
+    "color": "Red",
+    "mileage": 24,
+    "price": "$0.04",
+    "location": "Sakon Nakhon"
+  },
+  {
+    "brand_id": 245,
+    "brand_name": "Pontiac",
+    "model": "1000",
+    "year": 1985,
+    "color": "Red",
+    "mileage": 16,
+    "price": "$1.37",
+    "location": "Bitola"
+  },
+  {
+    "brand_id": 246,
+    "brand_name": "Plymouth",
+    "model": "Horizon",
+    "year": 1978,
+    "color": "Teal",
+    "mileage": 20,
+    "price": "$4.01",
+    "location": "Zhengwan"
+  },
+  {
+    "brand_id": 247,
+    "brand_name": "Maserati",
+    "model": "Biturbo",
+    "year": 1987,
+    "color": "Blue",
+    "mileage": 12,
+    "price": "$5.16",
+    "location": "Färgelanda"
+  },
+  {
+    "brand_id": 248,
+    "brand_name": "Plymouth",
+    "model": "Acclaim",
+    "year": 1994,
+    "color": "Aquamarine",
+    "mileage": 19,
+    "price": "$6.33",
+    "location": "Samagaltay"
+  },
+  {
+    "brand_id": 249,
+    "brand_name": "Ford",
+    "model": "Galaxie",
+    "year": 1966,
+    "color": "Maroon",
+    "mileage": 21,
+    "price": "$5.59",
+    "location": "Liski"
+  },
+  {
+    "brand_id": 250,
+    "brand_name": "BMW",
+    "model": "7 Series",
+    "year": 2006,
+    "color": "Khaki",
+    "mileage": 13,
+    "price": "$1.60",
+    "location": "Tuburan"
+  },
+  {
+    "brand_id": 251,
+    "brand_name": "Toyota",
+    "model": "Highlander",
+    "year": 2003,
+    "color": "Aquamarine",
+    "mileage": 13,
+    "price": "$0.76",
+    "location": "Hlusk"
+  },
+  {
+    "brand_id": 252,
+    "brand_name": "Volvo",
+    "model": "850",
+    "year": 1996,
+    "color": "Purple",
+    "mileage": 14,
+    "price": "$7.89",
+    "location": "La Paz"
+  },
+  {
+    "brand_id": 253,
+    "brand_name": "Ford",
+    "model": "E-Series",
+    "year": 2002,
+    "color": "Indigo",
+    "mileage": 14,
+    "price": "$2.44",
+    "location": "Calarcá"
+  },
+  {
+    "brand_id": 254,
+    "brand_name": "Buick",
+    "model": "Park Avenue",
+    "year": 2001,
+    "color": "Goldenrod",
+    "mileage": 19,
+    "price": "$9.44",
+    "location": "Bistrica pri Tržiču"
+  },
+  {
+    "brand_id": 255,
+    "brand_name": "Volkswagen",
+    "model": "Jetta",
+    "year": 2005,
+    "color": "Pink",
+    "mileage": 16,
+    "price": "$9.32",
+    "location": "Dunkerque"
+  },
+  {
+    "brand_id": 256,
+    "brand_name": "Mazda",
+    "model": "Mazdaspeed 3",
+    "year": 2008,
+    "color": "Green",
+    "mileage": 18,
+    "price": "$6.34",
+    "location": "Kuma"
+  },
+  {
+    "brand_id": 257,
+    "brand_name": "Toyota",
+    "model": "RAV4",
+    "year": 2006,
+    "color": "Red",
+    "mileage": 16,
+    "price": "$1.48",
+    "location": "Dianqian"
+  },
+  {
+    "brand_id": 258,
+    "brand_name": "Subaru",
+    "model": "XT",
+    "year": 1990,
+    "color": "Purple",
+    "mileage": 14,
+    "price": "$8.12",
+    "location": "Sighnaghi"
+  },
+  {
+    "brand_id": 259,
+    "brand_name": "Lexus",
+    "model": "RX",
+    "year": 2010,
+    "color": "Maroon",
+    "mileage": 16,
+    "price": "$7.35",
+    "location": "San José de Cusmapa"
+  },
+  {
+    "brand_id": 260,
+    "brand_name": "Pontiac",
+    "model": "Firebird",
+    "year": 1997,
+    "color": "Purple",
+    "mileage": 19,
+    "price": "$1.60",
+    "location": "Amiens"
+  },
+  {
+    "brand_id": 261,
+    "brand_name": "Mazda",
+    "model": "MX-5",
+    "year": 1998,
+    "color": "Violet",
+    "mileage": 12,
+    "price": "$7.13",
+    "location": "Kokhanava"
+  },
+  {
+    "brand_id": 262,
+    "brand_name": "Suzuki",
+    "model": "Esteem",
+    "year": 2001,
+    "color": "Violet",
+    "mileage": 18,
+    "price": "$9.25",
+    "location": "Emiliano Zapata"
+  },
+  {
+    "brand_id": 263,
+    "brand_name": "Ford",
+    "model": "Crown Victoria",
+    "year": 2005,
+    "color": "Blue",
+    "mileage": 19,
+    "price": "$0.12",
+    "location": "Pueblo Nuevo"
+  },
+  {
+    "brand_id": 264,
+    "brand_name": "Isuzu",
+    "model": "Rodeo",
+    "year": 1996,
+    "color": "Crimson",
+    "mileage": 12,
+    "price": "$7.21",
+    "location": "Halle"
+  },
+  {
+    "brand_id": 265,
+    "brand_name": "Buick",
+    "model": "Reatta",
+    "year": 1990,
+    "color": "Blue",
+    "mileage": 16,
+    "price": "$7.77",
+    "location": "Douma"
+  },
+  {
+    "brand_id": 266,
+    "brand_name": "Dodge",
+    "model": "Caravan",
+    "year": 1995,
+    "color": "Goldenrod",
+    "mileage": 12,
+    "price": "$9.93",
+    "location": "Yishi"
+  },
+  {
+    "brand_id": 267,
+    "brand_name": "Hyundai",
+    "model": "Scoupe",
+    "year": 1994,
+    "color": "Yellow",
+    "mileage": 19,
+    "price": "$3.16",
+    "location": "Sam Phran"
+  },
+  {
+    "brand_id": 268,
+    "brand_name": "Mercury",
+    "model": "Cougar",
+    "year": 2000,
+    "color": "Khaki",
+    "mileage": 17,
+    "price": "$6.95",
+    "location": "Bangan-Oda"
+  },
+  {
+    "brand_id": 269,
+    "brand_name": "Ford",
+    "model": "Escort",
+    "year": 1986,
+    "color": "Puce",
+    "mileage": 21,
+    "price": "$4.29",
+    "location": "Lillooet"
+  },
+  {
+    "brand_id": 270,
+    "brand_name": "Ford",
+    "model": "F350",
+    "year": 2000,
+    "color": "Fuscia",
+    "mileage": 21,
+    "price": "$2.40",
+    "location": "Napel"
+  },
+  {
+    "brand_id": 271,
+    "brand_name": "Ford",
+    "model": "Tempo",
+    "year": 1987,
+    "color": "Red",
+    "mileage": 25,
+    "price": "$5.45",
+    "location": "Iwata"
+  },
+  {
+    "brand_id": 272,
+    "brand_name": "Mitsubishi",
+    "model": "Cordia",
+    "year": 1987,
+    "color": "Blue",
+    "mileage": 13,
+    "price": "$0.05",
+    "location": "Colquechaca"
+  },
+  {
+    "brand_id": 273,
+    "brand_name": "BMW",
+    "model": "Z4",
+    "year": 2010,
+    "color": "Fuscia",
+    "mileage": 15,
+    "price": "$6.45",
+    "location": "Emiliano Zapata"
+  },
+  {
+    "brand_id": 274,
+    "brand_name": "Chevrolet",
+    "model": "Suburban 1500",
+    "year": 2011,
+    "color": "Red",
+    "mileage": 17,
+    "price": "$8.50",
+    "location": "Dūāb"
+  },
+  {
+    "brand_id": 275,
+    "brand_name": "Buick",
+    "model": "Regal",
+    "year": 1985,
+    "color": "Orange",
+    "mileage": 16,
+    "price": "$8.98",
+    "location": "Kuwumkumambal"
+  },
+  {
+    "brand_id": 276,
+    "brand_name": "Mercedes-Benz",
+    "model": "SL-Class",
+    "year": 1988,
+    "color": "Fuscia",
+    "mileage": 16,
+    "price": "$7.86",
+    "location": "Baofeng"
+  },
+  {
+    "brand_id": 277,
+    "brand_name": "Acura",
+    "model": "Legend",
+    "year": 1995,
+    "color": "Goldenrod",
+    "mileage": 25,
+    "price": "$7.93",
+    "location": "Enschede"
+  },
+  {
+    "brand_id": 278,
+    "brand_name": "Honda",
+    "model": "S2000",
+    "year": 2004,
+    "color": "Crimson",
+    "mileage": 18,
+    "price": "$3.56",
+    "location": "Chamlykskaya"
+  },
+  {
+    "brand_id": 279,
+    "brand_name": "Ford",
+    "model": "Windstar",
+    "year": 2002,
+    "color": "Indigo",
+    "mileage": 16,
+    "price": "$0.43",
+    "location": "San Agustin"
+  },
+  {
+    "brand_id": 280,
+    "brand_name": "Honda",
+    "model": "Ridgeline",
+    "year": 2007,
+    "color": "Khaki",
+    "mileage": 24,
+    "price": "$6.07",
+    "location": "Fagersta"
+  },
+  {
+    "brand_id": 281,
+    "brand_name": "Lexus",
+    "model": "ES",
+    "year": 1994,
+    "color": "Puce",
+    "mileage": 21,
+    "price": "$3.74",
+    "location": "Sigayevo"
+  },
+  {
+    "brand_id": 282,
+    "brand_name": "Ford",
+    "model": "Focus",
+    "year": 2013,
+    "color": "Violet",
+    "mileage": 21,
+    "price": "$0.51",
+    "location": "Longquan"
+  },
+  {
+    "brand_id": 283,
+    "brand_name": "Dodge",
+    "model": "Caliber",
+    "year": 2009,
+    "color": "Maroon",
+    "mileage": 25,
+    "price": "$1.28",
+    "location": "Blagodarnyy"
+  },
+  {
+    "brand_id": 284,
+    "brand_name": "Ford",
+    "model": "F250",
+    "year": 2002,
+    "color": "Goldenrod",
+    "mileage": 12,
+    "price": "$5.91",
+    "location": "Peterborough"
+  },
+  {
+    "brand_id": 285,
+    "brand_name": "Mitsubishi",
+    "model": "Challenger",
+    "year": 1998,
+    "color": "Turquoise",
+    "mileage": 16,
+    "price": "$9.10",
+    "location": "Kukushtan"
+  },
+  {
+    "brand_id": 286,
+    "brand_name": "Honda",
+    "model": "Fit",
+    "year": 2011,
+    "color": "Pink",
+    "mileage": 18,
+    "price": "$0.85",
+    "location": "Smolino"
+  },
+  {
+    "brand_id": 287,
+    "brand_name": "Mercedes-Benz",
+    "model": "CLK-Class",
+    "year": 2008,
+    "color": "Aquamarine",
+    "mileage": 22,
+    "price": "$8.97",
+    "location": "Córdoba"
+  },
+  {
+    "brand_id": 288,
+    "brand_name": "Aptera",
+    "model": "Typ-1",
+    "year": 2009,
+    "color": "Yellow",
+    "mileage": 12,
+    "price": "$3.63",
+    "location": "Xiapu"
+  },
+  {
+    "brand_id": 289,
+    "brand_name": "Mercury",
+    "model": "Cougar",
+    "year": 1985,
+    "color": "Blue",
+    "mileage": 13,
+    "price": "$7.58",
+    "location": "Korolëv Stan"
+  },
+  {
+    "brand_id": 290,
+    "brand_name": "Audi",
+    "model": "TT",
+    "year": 2005,
+    "color": "Blue",
+    "mileage": 23,
+    "price": "$6.68",
+    "location": "Doushan"
+  },
+  {
+    "brand_id": 291,
+    "brand_name": "Chevrolet",
+    "model": "Suburban 1500",
+    "year": 2009,
+    "color": "Red",
+    "mileage": 14,
+    "price": "$7.57",
+    "location": "Polovinnoye"
+  },
+  {
+    "brand_id": 292,
+    "brand_name": "Lamborghini",
+    "model": "Gallardo",
+    "year": 2011,
+    "color": "Blue",
+    "mileage": 22,
+    "price": "$7.04",
+    "location": "Vágia"
+  },
+  {
+    "brand_id": 293,
+    "brand_name": "Honda",
+    "model": "Insight",
+    "year": 2004,
+    "color": "Turquoise",
+    "mileage": 16,
+    "price": "$7.37",
+    "location": "Neiafu"
+  },
+  {
+    "brand_id": 294,
+    "brand_name": "Chrysler",
+    "model": "Sebring",
+    "year": 2001,
+    "color": "Blue",
+    "mileage": 19,
+    "price": "$5.82",
+    "location": "Guérande"
+  },
+  {
+    "brand_id": 295,
+    "brand_name": "Isuzu",
+    "model": "Trooper",
+    "year": 1998,
+    "color": "Violet",
+    "mileage": 16,
+    "price": "$7.77",
+    "location": "Turan"
+  },
+  {
+    "brand_id": 296,
+    "brand_name": "Mercedes-Benz",
+    "model": "W201",
+    "year": 1991,
+    "color": "Pink",
+    "mileage": 23,
+    "price": "$3.24",
+    "location": "Houzhai"
+  },
+  {
+    "brand_id": 297,
+    "brand_name": "Lincoln",
+    "model": "Navigator",
+    "year": 2012,
+    "color": "Indigo",
+    "mileage": 13,
+    "price": "$2.74",
+    "location": "Shigutang"
+  },
+  {
+    "brand_id": 298,
+    "brand_name": "GMC",
+    "model": "Rally Wagon 1500",
+    "year": 1993,
+    "color": "Teal",
+    "mileage": 23,
+    "price": "$5.09",
+    "location": "Murów"
+  },
+  {
+    "brand_id": 299,
+    "brand_name": "Honda",
+    "model": "Civic",
+    "year": 1998,
+    "color": "Orange",
+    "mileage": 23,
+    "price": "$4.03",
+    "location": "Albardón"
+  },
+  {
+    "brand_id": 300,
+    "brand_name": "BMW",
+    "model": "3 Series",
+    "year": 2004,
+    "color": "Yellow",
+    "mileage": 18,
+    "price": "$7.69",
+    "location": "Uzhhorod"
+  },
+  {
+    "brand_id": 301,
+    "brand_name": "Chevrolet",
+    "model": "Avalanche 1500",
+    "year": 2002,
+    "color": "Yellow",
+    "mileage": 17,
+    "price": "$3.68",
+    "location": "Santa Maria Oliveira"
+  },
+  {
+    "brand_id": 302,
+    "brand_name": "Mazda",
+    "model": "MPV",
+    "year": 1991,
+    "color": "Purple",
+    "mileage": 19,
+    "price": "$8.74",
+    "location": "Yingta"
+  },
+  {
+    "brand_id": 303,
+    "brand_name": "Lexus",
+    "model": "LS",
+    "year": 1989,
+    "color": "Yellow",
+    "mileage": 25,
+    "price": "$3.66",
+    "location": "Tanshi"
+  },
+  {
+    "brand_id": 304,
+    "brand_name": "Mazda",
+    "model": "B-Series",
+    "year": 2001,
+    "color": "Indigo",
+    "mileage": 24,
+    "price": "$0.51",
+    "location": "Saari"
+  },
+  {
+    "brand_id": 305,
+    "brand_name": "Porsche",
+    "model": "914",
+    "year": 1970,
+    "color": "Turquoise",
+    "mileage": 12,
+    "price": "$9.58",
+    "location": "Rîşcani"
+  },
+  {
+    "brand_id": 306,
+    "brand_name": "Mazda",
+    "model": "MPV",
+    "year": 1995,
+    "color": "Maroon",
+    "mileage": 13,
+    "price": "$6.42",
+    "location": "Lae"
+  },
+  {
+    "brand_id": 307,
+    "brand_name": "Ford",
+    "model": "E-Series",
+    "year": 2010,
+    "color": "Khaki",
+    "mileage": 24,
+    "price": "$1.07",
+    "location": "Kamaris"
+  },
+  {
+    "brand_id": 308,
+    "brand_name": "Mazda",
+    "model": "RX-7",
+    "year": 1994,
+    "color": "Orange",
+    "mileage": 19,
+    "price": "$2.11",
+    "location": "Zhangjiaji"
+  },
+  {
+    "brand_id": 309,
+    "brand_name": "Hyundai",
+    "model": "Tiburon",
+    "year": 2001,
+    "color": "Yellow",
+    "mileage": 19,
+    "price": "$8.06",
+    "location": "Nanzamu"
+  },
+  {
+    "brand_id": 310,
+    "brand_name": "Mazda",
+    "model": "Mazda3",
+    "year": 2004,
+    "color": "Blue",
+    "mileage": 19,
+    "price": "$9.00",
+    "location": "Namikupa"
+  },
+  {
+    "brand_id": 311,
+    "brand_name": "Ford",
+    "model": "Econoline E350",
+    "year": 1992,
+    "color": "Red",
+    "mileage": 13,
+    "price": "$7.06",
+    "location": "Jardim do Seridó"
+  },
+  {
+    "brand_id": 312,
+    "brand_name": "Mazda",
+    "model": "MX-5",
+    "year": 2010,
+    "color": "Indigo",
+    "mileage": 12,
+    "price": "$4.26",
+    "location": "Brasília de Minas"
+  },
+  {
+    "brand_id": 313,
+    "brand_name": "Nissan",
+    "model": "Frontier",
+    "year": 2011,
+    "color": "Violet",
+    "mileage": 18,
+    "price": "$6.00",
+    "location": "São Vicente"
+  },
+  {
+    "brand_id": 314,
+    "brand_name": "BMW",
+    "model": "X3",
+    "year": 2010,
+    "color": "Crimson",
+    "mileage": 23,
+    "price": "$6.21",
+    "location": "Sanlanbahai"
+  },
+  {
+    "brand_id": 315,
+    "brand_name": "Volvo",
+    "model": "S80",
+    "year": 2008,
+    "color": "Green",
+    "mileage": 25,
+    "price": "$1.23",
+    "location": "Ilangay"
+  },
+  {
+    "brand_id": 316,
+    "brand_name": "Ford",
+    "model": "Expedition",
+    "year": 2004,
+    "color": "Red",
+    "mileage": 19,
+    "price": "$2.08",
+    "location": "Longtang"
+  },
+  {
+    "brand_id": 317,
+    "brand_name": "Suzuki",
+    "model": "Swift",
+    "year": 2005,
+    "color": "Purple",
+    "mileage": 18,
+    "price": "$4.09",
+    "location": "Piketberg"
+  },
+  {
+    "brand_id": 318,
+    "brand_name": "Mercedes-Benz",
+    "model": "G-Class",
+    "year": 2011,
+    "color": "Goldenrod",
+    "mileage": 19,
+    "price": "$9.58",
+    "location": "Tammela"
+  },
+  {
+    "brand_id": 319,
+    "brand_name": "Chevrolet",
+    "model": "Cobalt",
+    "year": 2008,
+    "color": "Teal",
+    "mileage": 25,
+    "price": "$3.28",
+    "location": "Saint Joseph"
+  },
+  {
+    "brand_id": 320,
+    "brand_name": "Dodge",
+    "model": "Ram 2500",
+    "year": 2009,
+    "color": "Pink",
+    "mileage": 20,
+    "price": "$1.33",
+    "location": "Puncan"
+  },
+  {
+    "brand_id": 321,
+    "brand_name": "Hyundai",
+    "model": "Sonata",
+    "year": 2008,
+    "color": "Yellow",
+    "mileage": 20,
+    "price": "$3.40",
+    "location": "Ḏânan"
+  },
+  {
+    "brand_id": 322,
+    "brand_name": "Acura",
+    "model": "TL",
+    "year": 2004,
+    "color": "Maroon",
+    "mileage": 12,
+    "price": "$3.35",
+    "location": "Pepayan"
+  },
+  {
+    "brand_id": 323,
+    "brand_name": "MINI",
+    "model": "Cooper",
+    "year": 2007,
+    "color": "Aquamarine",
+    "mileage": 12,
+    "price": "$9.67",
+    "location": "Béziers"
+  },
+  {
+    "brand_id": 324,
+    "brand_name": "GMC",
+    "model": "Savana",
+    "year": 2008,
+    "color": "Purple",
+    "mileage": 23,
+    "price": "$6.37",
+    "location": "Dzuunmod"
+  },
+  {
+    "brand_id": 325,
+    "brand_name": "Hummer",
+    "model": "H3T",
+    "year": 2009,
+    "color": "Green",
+    "mileage": 14,
+    "price": "$7.31",
+    "location": "Şaydnāyā"
+  },
+  {
+    "brand_id": 326,
+    "brand_name": "GMC",
+    "model": "Savana 3500",
+    "year": 2009,
+    "color": "Indigo",
+    "mileage": 20,
+    "price": "$5.30",
+    "location": "Limache"
+  },
+  {
+    "brand_id": 327,
+    "brand_name": "Ford",
+    "model": "F350",
+    "year": 2001,
+    "color": "Green",
+    "mileage": 20,
+    "price": "$0.64",
+    "location": "Gandu"
+  },
+  {
+    "brand_id": 328,
+    "brand_name": "Volkswagen",
+    "model": "Jetta",
+    "year": 2007,
+    "color": "Teal",
+    "mileage": 23,
+    "price": "$9.57",
+    "location": "Tomilino"
+  },
+  {
+    "brand_id": 329,
+    "brand_name": "Mercury",
+    "model": "Mariner",
+    "year": 2010,
+    "color": "Goldenrod",
+    "mileage": 14,
+    "price": "$0.64",
+    "location": "Yurino"
+  },
+  {
+    "brand_id": 330,
+    "brand_name": "Mitsubishi",
+    "model": "Precis",
+    "year": 1990,
+    "color": "Pink",
+    "mileage": 16,
+    "price": "$0.49",
+    "location": "Corail"
+  },
+  {
+    "brand_id": 331,
+    "brand_name": "Land Rover",
+    "model": "Range Rover",
+    "year": 1996,
+    "color": "Aquamarine",
+    "mileage": 15,
+    "price": "$1.44",
+    "location": "Baki"
+  },
+  {
+    "brand_id": 332,
+    "brand_name": "Pontiac",
+    "model": "Bonneville",
+    "year": 1964,
+    "color": "Mauv",
+    "mileage": 13,
+    "price": "$3.50",
+    "location": "Itaperuçu"
+  },
+  {
+    "brand_id": 333,
+    "brand_name": "GMC",
+    "model": "Yukon",
+    "year": 2004,
+    "color": "Violet",
+    "mileage": 21,
+    "price": "$4.62",
+    "location": "Naebugis"
+  },
+  {
+    "brand_id": 334,
+    "brand_name": "Isuzu",
+    "model": "Trooper",
+    "year": 1994,
+    "color": "Goldenrod",
+    "mileage": 18,
+    "price": "$0.73",
+    "location": "Aurora"
+  },
+  {
+    "brand_id": 335,
+    "brand_name": "Ford",
+    "model": "Explorer Sport Trac",
+    "year": 2004,
+    "color": "Khaki",
+    "mileage": 15,
+    "price": "$9.35",
+    "location": "Ciengang"
+  },
+  {
+    "brand_id": 336,
+    "brand_name": "Mitsubishi",
+    "model": "Galant",
+    "year": 2000,
+    "color": "Aquamarine",
+    "mileage": 19,
+    "price": "$4.71",
+    "location": "Napalitan"
+  },
+  {
+    "brand_id": 337,
+    "brand_name": "Porsche",
+    "model": "Boxster",
+    "year": 2003,
+    "color": "Crimson",
+    "mileage": 22,
+    "price": "$1.81",
+    "location": "Kuloy"
+  },
+  {
+    "brand_id": 338,
+    "brand_name": "Mazda",
+    "model": "Miata MX-5",
+    "year": 2008,
+    "color": "Turquoise",
+    "mileage": 13,
+    "price": "$1.64",
+    "location": "Yajiwa"
+  },
+  {
+    "brand_id": 339,
+    "brand_name": "Mercedes-Benz",
+    "model": "500E",
+    "year": 1993,
+    "color": "Maroon",
+    "mileage": 15,
+    "price": "$5.47",
+    "location": "Amaraji"
+  },
+  {
+    "brand_id": 340,
+    "brand_name": "Pontiac",
+    "model": "Firebird",
+    "year": 1967,
+    "color": "Green",
+    "mileage": 25,
+    "price": "$3.16",
+    "location": "Grudë-Fushë"
+  },
+  {
+    "brand_id": 341,
+    "brand_name": "Lexus",
+    "model": "IS F",
+    "year": 2010,
+    "color": "Turquoise",
+    "mileage": 16,
+    "price": "$0.00",
+    "location": "Paris 13"
+  },
+  {
+    "brand_id": 342,
+    "brand_name": "Volkswagen",
+    "model": "Routan",
+    "year": 2010,
+    "color": "Violet",
+    "mileage": 21,
+    "price": "$2.39",
+    "location": "Trindade"
+  },
+  {
+    "brand_id": 343,
+    "brand_name": "Mitsubishi",
+    "model": "Lancer",
+    "year": 2007,
+    "color": "Turquoise",
+    "mileage": 23,
+    "price": "$0.27",
+    "location": "Trondheim"
+  },
+  {
+    "brand_id": 344,
+    "brand_name": "Nissan",
+    "model": "Maxima",
+    "year": 1992,
+    "color": "Mauv",
+    "mileage": 23,
+    "price": "$6.76",
+    "location": "Yatsushiro"
+  },
+  {
+    "brand_id": 345,
+    "brand_name": "Mazda",
+    "model": "Mazda6",
+    "year": 2013,
+    "color": "Violet",
+    "mileage": 21,
+    "price": "$7.26",
+    "location": "Port Barton"
+  },
+  {
+    "brand_id": 346,
+    "brand_name": "Jeep",
+    "model": "Grand Cherokee",
+    "year": 1999,
+    "color": "Aquamarine",
+    "mileage": 24,
+    "price": "$7.36",
+    "location": "Newport"
+  },
+  {
+    "brand_id": 347,
+    "brand_name": "BMW",
+    "model": "Z3",
+    "year": 2001,
+    "color": "Red",
+    "mileage": 12,
+    "price": "$0.94",
+    "location": "Puzi"
+  },
+  {
+    "brand_id": 348,
+    "brand_name": "GMC",
+    "model": "Savana 1500",
+    "year": 1997,
+    "color": "Fuscia",
+    "mileage": 16,
+    "price": "$8.33",
+    "location": "Baumata"
+  },
+  {
+    "brand_id": 349,
+    "brand_name": "Buick",
+    "model": "Century",
+    "year": 2000,
+    "color": "Crimson",
+    "mileage": 14,
+    "price": "$2.53",
+    "location": "Changfeng"
+  },
+  {
+    "brand_id": 350,
+    "brand_name": "Buick",
+    "model": "Regal",
+    "year": 2012,
+    "color": "Pink",
+    "mileage": 17,
+    "price": "$8.56",
+    "location": "Myhiya"
+  },
+  {
+    "brand_id": 351,
+    "brand_name": "Acura",
+    "model": "RDX",
+    "year": 2007,
+    "color": "Mauv",
+    "mileage": 17,
+    "price": "$7.30",
+    "location": "Paamiut"
+  },
+  {
+    "brand_id": 352,
+    "brand_name": "Ford",
+    "model": "Ranger",
+    "year": 1994,
+    "color": "Goldenrod",
+    "mileage": 17,
+    "price": "$4.98",
+    "location": "Mayang"
+  },
+  {
+    "brand_id": 353,
+    "brand_name": "Volkswagen",
+    "model": "GTI",
+    "year": 1987,
+    "color": "Mauv",
+    "mileage": 22,
+    "price": "$3.86",
+    "location": "Křižanov"
+  },
+  {
+    "brand_id": 354,
+    "brand_name": "Chevrolet",
+    "model": "Cobalt",
+    "year": 2008,
+    "color": "Aquamarine",
+    "mileage": 14,
+    "price": "$5.14",
+    "location": "Busdi"
+  },
+  {
+    "brand_id": 355,
+    "brand_name": "BMW",
+    "model": "330",
+    "year": 2005,
+    "color": "Yellow",
+    "mileage": 12,
+    "price": "$9.83",
+    "location": "Sargodha"
+  },
+  {
+    "brand_id": 356,
+    "brand_name": "Lamborghini",
+    "model": "Aventador",
+    "year": 2012,
+    "color": "Yellow",
+    "mileage": 19,
+    "price": "$1.62",
+    "location": "Talodi"
+  },
+  {
+    "brand_id": 357,
+    "brand_name": "GMC",
+    "model": "Canyon",
+    "year": 2011,
+    "color": "Maroon",
+    "mileage": 23,
+    "price": "$9.93",
+    "location": "Kalian"
+  },
+  {
+    "brand_id": 358,
+    "brand_name": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 1994,
+    "color": "Maroon",
+    "mileage": 14,
+    "price": "$1.33",
+    "location": "Haoguantun"
+  },
+  {
+    "brand_id": 359,
+    "brand_name": "Volvo",
+    "model": "XC90",
+    "year": 2003,
+    "color": "Turquoise",
+    "mileage": 25,
+    "price": "$4.23",
+    "location": "Tengqiao"
+  },
+  {
+    "brand_id": 360,
+    "brand_name": "Acura",
+    "model": "RDX",
+    "year": 2011,
+    "color": "Violet",
+    "mileage": 16,
+    "price": "$0.83",
+    "location": "Kalipare"
+  },
+  {
+    "brand_id": 361,
+    "brand_name": "Mitsubishi",
+    "model": "Eclipse",
+    "year": 2008,
+    "color": "Teal",
+    "mileage": 25,
+    "price": "$8.80",
+    "location": "Zubūbah"
+  },
+  {
+    "brand_id": 362,
+    "brand_name": "Bentley",
+    "model": "Mulsanne",
+    "year": 2011,
+    "color": "Goldenrod",
+    "mileage": 15,
+    "price": "$8.96",
+    "location": "Janeng"
+  },
+  {
+    "brand_id": 363,
+    "brand_name": "Chevrolet",
+    "model": "Sportvan G10",
+    "year": 1993,
+    "color": "Pink",
+    "mileage": 16,
+    "price": "$9.90",
+    "location": "New Leyte"
+  },
+  {
+    "brand_id": 364,
+    "brand_name": "Buick",
+    "model": "Park Avenue",
+    "year": 1994,
+    "color": "Indigo",
+    "mileage": 21,
+    "price": "$6.07",
+    "location": "Bressuire"
+  },
+  {
+    "brand_id": 365,
+    "brand_name": "Volkswagen",
+    "model": "GTI",
+    "year": 1989,
+    "color": "Maroon",
+    "mileage": 24,
+    "price": "$5.95",
+    "location": "Santa Luzia"
+  },
+  {
+    "brand_id": 366,
+    "brand_name": "Ford",
+    "model": "Ranger",
+    "year": 2010,
+    "color": "Khaki",
+    "mileage": 22,
+    "price": "$3.67",
+    "location": "Sơn Tây"
+  },
+  {
+    "brand_id": 367,
+    "brand_name": "Cadillac",
+    "model": "CTS",
+    "year": 2011,
+    "color": "Khaki",
+    "mileage": 19,
+    "price": "$5.49",
+    "location": "Haparanda"
+  },
+  {
+    "brand_id": 368,
+    "brand_name": "Chevrolet",
+    "model": "Avalanche 2500",
+    "year": 2006,
+    "color": "Goldenrod",
+    "mileage": 12,
+    "price": "$6.44",
+    "location": "Comilla"
+  },
+  {
+    "brand_id": 369,
+    "brand_name": "Suzuki",
+    "model": "SJ",
+    "year": 1995,
+    "color": "Aquamarine",
+    "mileage": 16,
+    "price": "$1.61",
+    "location": "Bafang"
+  },
+  {
+    "brand_id": 370,
+    "brand_name": "Mercedes-Benz",
+    "model": "CLS-Class",
+    "year": 2008,
+    "color": "Khaki",
+    "mileage": 20,
+    "price": "$5.13",
+    "location": "Bonabéri"
+  },
+  {
+    "brand_id": 371,
+    "brand_name": "Ford",
+    "model": "Festiva",
+    "year": 1991,
+    "color": "Purple",
+    "mileage": 18,
+    "price": "$4.39",
+    "location": "Alenquer"
+  },
+  {
+    "brand_id": 372,
+    "brand_name": "Mazda",
+    "model": "MPV",
+    "year": 1994,
+    "color": "Maroon",
+    "mileage": 14,
+    "price": "$6.69",
+    "location": "Gludug"
+  },
+  {
+    "brand_id": 373,
+    "brand_name": "Chevrolet",
+    "model": "Blazer",
+    "year": 2005,
+    "color": "Mauv",
+    "mileage": 20,
+    "price": "$0.84",
+    "location": "Meijiang"
+  },
+  {
+    "brand_id": 374,
+    "brand_name": "Geo",
+    "model": "Storm",
+    "year": 1992,
+    "color": "Crimson",
+    "mileage": 23,
+    "price": "$9.95",
+    "location": "Dawwār Tīnjah"
+  },
+  {
+    "brand_id": 375,
+    "brand_name": "Saturn",
+    "model": "S-Series",
+    "year": 1999,
+    "color": "Turquoise",
+    "mileage": 13,
+    "price": "$3.35",
+    "location": "Liping"
+  },
+  {
+    "brand_id": 376,
+    "brand_name": "Suzuki",
+    "model": "Swift",
+    "year": 1997,
+    "color": "Yellow",
+    "mileage": 21,
+    "price": "$8.83",
+    "location": "Tanjung"
+  },
+  {
+    "brand_id": 377,
+    "brand_name": "Volkswagen",
+    "model": "rio",
+    "year": 1995,
+    "color": "Indigo",
+    "mileage": 17,
+    "price": "$8.76",
+    "location": "Casimiro de Abreu"
+  },
+  {
+    "brand_id": 378,
+    "brand_name": "Chevrolet",
+    "model": "Colorado",
+    "year": 2007,
+    "color": "Puce",
+    "mileage": 21,
+    "price": "$5.23",
+    "location": "Tumu"
+  },
+  {
+    "brand_id": 379,
+    "brand_name": "Chevrolet",
+    "model": "Express 1500",
+    "year": 2010,
+    "color": "Goldenrod",
+    "mileage": 14,
+    "price": "$7.70",
+    "location": "Yëlkino"
+  },
+  {
+    "brand_id": 380,
+    "brand_name": "Volkswagen",
+    "model": "GTI",
+    "year": 2010,
+    "color": "Purple",
+    "mileage": 14,
+    "price": "$9.74",
+    "location": "Ak’ordat"
+  },
+  {
+    "brand_id": 381,
+    "brand_name": "Land Rover",
+    "model": "Range Rover",
+    "year": 1993,
+    "color": "Goldenrod",
+    "mileage": 20,
+    "price": "$7.52",
+    "location": "Selnica"
+  },
+  {
+    "brand_id": 382,
+    "brand_name": "Audi",
+    "model": "R8",
+    "year": 2008,
+    "color": "Puce",
+    "mileage": 14,
+    "price": "$7.42",
+    "location": "Kandahār"
+  },
+  {
+    "brand_id": 383,
+    "brand_name": "Mitsubishi",
+    "model": "Mirage",
+    "year": 2001,
+    "color": "Goldenrod",
+    "mileage": 16,
+    "price": "$4.02",
+    "location": "Ciranca Satu"
+  },
+  {
+    "brand_id": 384,
+    "brand_name": "Cadillac",
+    "model": "XLR",
+    "year": 2007,
+    "color": "Orange",
+    "mileage": 22,
+    "price": "$2.28",
+    "location": "Changgai"
+  },
+  {
+    "brand_id": 385,
+    "brand_name": "Isuzu",
+    "model": "Ascender",
+    "year": 2009,
+    "color": "Khaki",
+    "mileage": 12,
+    "price": "$8.22",
+    "location": "Stanowice"
+  },
+  {
+    "brand_id": 386,
+    "brand_name": "Chevrolet",
+    "model": "Camaro",
+    "year": 1976,
+    "color": "Turquoise",
+    "mileage": 14,
+    "price": "$5.54",
+    "location": "Boyuibe"
+  },
+  {
+    "brand_id": 387,
+    "brand_name": "Ford",
+    "model": "Explorer",
+    "year": 1996,
+    "color": "Khaki",
+    "mileage": 19,
+    "price": "$0.64",
+    "location": "Bagarmossen"
+  },
+  {
+    "brand_id": 388,
+    "brand_name": "Lincoln",
+    "model": "Navigator",
+    "year": 2011,
+    "color": "Teal",
+    "mileage": 20,
+    "price": "$9.42",
+    "location": "Chadiza"
+  },
+  {
+    "brand_id": 389,
+    "brand_name": "Ford",
+    "model": "Aspire",
+    "year": 1996,
+    "color": "Violet",
+    "mileage": 20,
+    "price": "$8.90",
+    "location": "Amuñgan"
+  },
+  {
+    "brand_id": 390,
+    "brand_name": "Audi",
+    "model": "5000CS",
+    "year": 1987,
+    "color": "Aquamarine",
+    "mileage": 19,
+    "price": "$7.31",
+    "location": "Ţammūn"
+  },
+  {
+    "brand_id": 391,
+    "brand_name": "Eagle",
+    "model": "Premier",
+    "year": 1992,
+    "color": "Fuscia",
+    "mileage": 16,
+    "price": "$0.96",
+    "location": "Laya"
+  },
+  {
+    "brand_id": 392,
+    "brand_name": "Lotus",
+    "model": "Esprit",
+    "year": 1993,
+    "color": "Crimson",
+    "mileage": 25,
+    "price": "$5.34",
+    "location": "Quatá"
+  },
+  {
+    "brand_id": 393,
+    "brand_name": "Pontiac",
+    "model": "Grand Prix",
+    "year": 2006,
+    "color": "Green",
+    "mileage": 16,
+    "price": "$7.53",
+    "location": "Ciechanów"
+  },
+  {
+    "brand_id": 394,
+    "brand_name": "Audi",
+    "model": "A8",
+    "year": 2005,
+    "color": "Orange",
+    "mileage": 16,
+    "price": "$6.86",
+    "location": "Banturkrajan"
+  },
+  {
+    "brand_id": 395,
+    "brand_name": "Ford",
+    "model": "Thunderbird",
+    "year": 2006,
+    "color": "Violet",
+    "mileage": 24,
+    "price": "$6.55",
+    "location": "Gálvez"
+  },
+  {
+    "brand_id": 396,
+    "brand_name": "Chevrolet",
+    "model": "Impala",
+    "year": 2007,
+    "color": "Violet",
+    "mileage": 21,
+    "price": "$6.11",
+    "location": "Zharkent"
+  },
+  {
+    "brand_id": 397,
+    "brand_name": "GMC",
+    "model": "Suburban 2500",
+    "year": 1992,
+    "color": "Aquamarine",
+    "mileage": 18,
+    "price": "$3.41",
+    "location": "Longlou"
+  },
+  {
+    "brand_id": 398,
+    "brand_name": "Ford",
+    "model": "E150",
+    "year": 2004,
+    "color": "Green",
+    "mileage": 14,
+    "price": "$7.91",
+    "location": "Ural"
+  },
+  {
+    "brand_id": 399,
+    "brand_name": "Nissan",
+    "model": "Frontier",
+    "year": 2000,
+    "color": "Fuscia",
+    "mileage": 24,
+    "price": "$8.03",
+    "location": "Jawornik Polski"
+  },
+  {
+    "brand_id": 400,
+    "brand_name": "Mitsubishi",
+    "model": "GTO",
+    "year": 1992,
+    "color": "Orange",
+    "mileage": 19,
+    "price": "$9.52",
+    "location": "Qianfoling"
+  },
+  {
+    "brand_id": 401,
+    "brand_name": "Chevrolet",
+    "model": "Silverado 1500",
+    "year": 2010,
+    "color": "Pink",
+    "mileage": 24,
+    "price": "$0.32",
+    "location": "Araraquara"
+  },
+  {
+    "brand_id": 402,
+    "brand_name": "Oldsmobile",
+    "model": "Aurora",
+    "year": 1997,
+    "color": "Crimson",
+    "mileage": 21,
+    "price": "$10.00",
+    "location": "Yidao"
+  },
+  {
+    "brand_id": 403,
+    "brand_name": "Ford",
+    "model": "Tempo",
+    "year": 1985,
+    "color": "Turquoise",
+    "mileage": 25,
+    "price": "$7.24",
+    "location": "Perechyn"
+  },
+  {
+    "brand_id": 404,
+    "brand_name": "Lincoln",
+    "model": "Navigator L",
+    "year": 2008,
+    "color": "Orange",
+    "mileage": 24,
+    "price": "$6.21",
+    "location": "Tayabamba"
+  },
+  {
+    "brand_id": 405,
+    "brand_name": "Chevrolet",
+    "model": "Equinox",
+    "year": 2009,
+    "color": "Green",
+    "mileage": 20,
+    "price": "$7.87",
+    "location": "Dourbali"
+  },
+  {
+    "brand_id": 406,
+    "brand_name": "Subaru",
+    "model": "Alcyone SVX",
+    "year": 1994,
+    "color": "Orange",
+    "mileage": 16,
+    "price": "$7.80",
+    "location": "Jati"
+  },
+  {
+    "brand_id": 407,
+    "brand_name": "Pontiac",
+    "model": "Firebird",
+    "year": 1986,
+    "color": "Yellow",
+    "mileage": 13,
+    "price": "$6.78",
+    "location": "Venda Nova"
+  },
+  {
+    "brand_id": 408,
+    "brand_name": "Chevrolet",
+    "model": "TrailBlazer",
+    "year": 2005,
+    "color": "Blue",
+    "mileage": 12,
+    "price": "$1.88",
+    "location": "Alajuelita"
+  },
+  {
+    "brand_id": 409,
+    "brand_name": "Ford",
+    "model": "Escape",
+    "year": 2006,
+    "color": "Yellow",
+    "mileage": 14,
+    "price": "$8.15",
+    "location": "Patani"
+  },
+  {
+    "brand_id": 410,
+    "brand_name": "Eagle",
+    "model": "Summit",
+    "year": 1994,
+    "color": "Mauv",
+    "mileage": 22,
+    "price": "$9.56",
+    "location": "Tiannan"
+  },
+  {
+    "brand_id": 411,
+    "brand_name": "Ford",
+    "model": "Ranger",
+    "year": 1985,
+    "color": "Orange",
+    "mileage": 12,
+    "price": "$3.92",
+    "location": "Wonokerto"
+  },
+  {
+    "brand_id": 412,
+    "brand_name": "Infiniti",
+    "model": "G",
+    "year": 2004,
+    "color": "Maroon",
+    "mileage": 16,
+    "price": "$0.90",
+    "location": "Sułkowice"
+  },
+  {
+    "brand_id": 413,
+    "brand_name": "Toyota",
+    "model": "Solara",
+    "year": 2005,
+    "color": "Crimson",
+    "mileage": 20,
+    "price": "$7.11",
+    "location": "Gualmatán"
+  },
+  {
+    "brand_id": 414,
+    "brand_name": "Mitsubishi",
+    "model": "GTO",
+    "year": 1995,
+    "color": "Maroon",
+    "mileage": 21,
+    "price": "$1.71",
+    "location": "Uliastay"
+  },
+  {
+    "brand_id": 415,
+    "brand_name": "Chevrolet",
+    "model": "Corvette",
+    "year": 1972,
+    "color": "Violet",
+    "mileage": 18,
+    "price": "$2.71",
+    "location": "Stratford"
+  },
+  {
+    "brand_id": 416,
+    "brand_name": "Toyota",
+    "model": "Solara",
+    "year": 2002,
+    "color": "Goldenrod",
+    "mileage": 20,
+    "price": "$5.74",
+    "location": "Élancourt"
+  },
+  {
+    "brand_id": 417,
+    "brand_name": "Chevrolet",
+    "model": "Corvette",
+    "year": 1999,
+    "color": "Turquoise",
+    "mileage": 19,
+    "price": "$5.93",
+    "location": "Sheli"
+  },
+  {
+    "brand_id": 418,
+    "brand_name": "GMC",
+    "model": "Yukon",
+    "year": 2005,
+    "color": "Green",
+    "mileage": 24,
+    "price": "$1.37",
+    "location": "Pryazovs’ke"
+  },
+  {
+    "brand_id": 419,
+    "brand_name": "Infiniti",
+    "model": "Q",
+    "year": 1993,
+    "color": "Khaki",
+    "mileage": 20,
+    "price": "$5.71",
+    "location": "Novi Zagreb"
+  },
+  {
+    "brand_id": 420,
+    "brand_name": "Ford",
+    "model": "F450",
+    "year": 2008,
+    "color": "Goldenrod",
+    "mileage": 15,
+    "price": "$8.12",
+    "location": "Soledad"
+  },
+  {
+    "brand_id": 421,
+    "brand_name": "Dodge",
+    "model": "Durango",
+    "year": 2005,
+    "color": "Crimson",
+    "mileage": 14,
+    "price": "$6.61",
+    "location": "Tbilisskaya"
+  },
+  {
+    "brand_id": 422,
+    "brand_name": "Chrysler",
+    "model": "Sebring",
+    "year": 2006,
+    "color": "Green",
+    "mileage": 19,
+    "price": "$4.28",
+    "location": "Lelystad"
+  },
+  {
+    "brand_id": 423,
+    "brand_name": "Pontiac",
+    "model": "Trans Sport",
+    "year": 1998,
+    "color": "Violet",
+    "mileage": 16,
+    "price": "$9.17",
+    "location": "Karanganyar"
+  },
+  {
+    "brand_id": 424,
+    "brand_name": "Subaru",
+    "model": "Forester",
+    "year": 2012,
+    "color": "Red",
+    "mileage": 17,
+    "price": "$6.56",
+    "location": "Barcelona"
+  },
+  {
+    "brand_id": 425,
+    "brand_name": "Hummer",
+    "model": "H1",
+    "year": 1999,
+    "color": "Indigo",
+    "mileage": 15,
+    "price": "$6.68",
+    "location": "Marseille"
+  },
+  {
+    "brand_id": 426,
+    "brand_name": "Audi",
+    "model": "A4",
+    "year": 2009,
+    "color": "Orange",
+    "mileage": 18,
+    "price": "$2.65",
+    "location": "Akriní"
+  },
+  {
+    "brand_id": 427,
+    "brand_name": "Infiniti",
+    "model": "EX",
+    "year": 2011,
+    "color": "Purple",
+    "mileage": 20,
+    "price": "$8.69",
+    "location": "Xiwang"
+  },
+  {
+    "brand_id": 428,
+    "brand_name": "Porsche",
+    "model": "911",
+    "year": 2000,
+    "color": "Teal",
+    "mileage": 13,
+    "price": "$7.64",
+    "location": "Lubango"
+  },
+  {
+    "brand_id": 429,
+    "brand_name": "Audi",
+    "model": "S4",
+    "year": 2012,
+    "color": "Fuscia",
+    "mileage": 24,
+    "price": "$8.74",
+    "location": "Rego"
+  },
+  {
+    "brand_id": 430,
+    "brand_name": "Mitsubishi",
+    "model": "Pajero",
+    "year": 1984,
+    "color": "Indigo",
+    "mileage": 14,
+    "price": "$6.78",
+    "location": "Khlong Hat"
+  },
+  {
+    "brand_id": 431,
+    "brand_name": "Ford",
+    "model": "Crown Victoria",
+    "year": 2005,
+    "color": "Indigo",
+    "mileage": 25,
+    "price": "$2.52",
+    "location": "Kalynivka"
+  },
+  {
+    "brand_id": 432,
+    "brand_name": "Mazda",
+    "model": "Mazda5",
+    "year": 2012,
+    "color": "Yellow",
+    "mileage": 18,
+    "price": "$4.40",
+    "location": "Giv'on HaHadasha"
+  },
+  {
+    "brand_id": 433,
+    "brand_name": "Mitsubishi",
+    "model": "Precis",
+    "year": 1994,
+    "color": "Teal",
+    "mileage": 12,
+    "price": "$7.55",
+    "location": "Choisy-le-Roi"
+  },
+  {
+    "brand_id": 434,
+    "brand_name": "Chevrolet",
+    "model": "Corvette",
+    "year": 1978,
+    "color": "Turquoise",
+    "mileage": 17,
+    "price": "$7.83",
+    "location": "Dallas"
+  },
+  {
+    "brand_id": 435,
+    "brand_name": "Acura",
+    "model": "Integra",
+    "year": 1993,
+    "color": "Mauv",
+    "mileage": 22,
+    "price": "$3.99",
+    "location": "Vatutine"
+  },
+  {
+    "brand_id": 436,
+    "brand_name": "Volkswagen",
+    "model": "Golf",
+    "year": 1998,
+    "color": "Orange",
+    "mileage": 16,
+    "price": "$3.36",
+    "location": "Hongqi"
+  },
+  {
+    "brand_id": 437,
+    "brand_name": "Lamborghini",
+    "model": "Diablo",
+    "year": 1990,
+    "color": "Crimson",
+    "mileage": 23,
+    "price": "$6.54",
+    "location": "Chervyen’"
+  },
+  {
+    "brand_id": 438,
+    "brand_name": "Saturn",
+    "model": "Ion",
+    "year": 2004,
+    "color": "Pink",
+    "mileage": 22,
+    "price": "$7.45",
+    "location": "Hengjie"
+  },
+  {
+    "brand_id": 439,
+    "brand_name": "Subaru",
+    "model": "Legacy",
+    "year": 2004,
+    "color": "Pink",
+    "mileage": 25,
+    "price": "$0.56",
+    "location": "Qukou"
+  },
+  {
+    "brand_id": 440,
+    "brand_name": "Acura",
+    "model": "SLX",
+    "year": 1999,
+    "color": "Khaki",
+    "mileage": 25,
+    "price": "$1.48",
+    "location": "Kranjska Gora"
+  },
+  {
+    "brand_id": 441,
+    "brand_name": "Mazda",
+    "model": "626",
+    "year": 1996,
+    "color": "Red",
+    "mileage": 24,
+    "price": "$8.25",
+    "location": "Bonanza"
+  },
+  {
+    "brand_id": 442,
+    "brand_name": "Ford",
+    "model": "ZX2",
+    "year": 2003,
+    "color": "Indigo",
+    "mileage": 22,
+    "price": "$3.22",
+    "location": "Magomeni"
+  },
+  {
+    "brand_id": 443,
+    "brand_name": "BMW",
+    "model": "M",
+    "year": 2002,
+    "color": "Puce",
+    "mileage": 20,
+    "price": "$3.87",
+    "location": "Barranca de Upía"
+  },
+  {
+    "brand_id": 444,
+    "brand_name": "Chevrolet",
+    "model": "Silverado 1500",
+    "year": 2007,
+    "color": "Fuscia",
+    "mileage": 25,
+    "price": "$9.54",
+    "location": "Ichihara"
+  },
+  {
+    "brand_id": 445,
+    "brand_name": "Mitsubishi",
+    "model": "Outlander",
+    "year": 2012,
+    "color": "Green",
+    "mileage": 21,
+    "price": "$2.39",
+    "location": "Salvacion"
+  },
+  {
+    "brand_id": 446,
+    "brand_name": "Volkswagen",
+    "model": "Jetta",
+    "year": 2006,
+    "color": "Orange",
+    "mileage": 16,
+    "price": "$4.98",
+    "location": "Novi Bečej"
+  },
+  {
+    "brand_id": 447,
+    "brand_name": "Mercedes-Benz",
+    "model": "G-Class",
+    "year": 2005,
+    "color": "Crimson",
+    "mileage": 13,
+    "price": "$3.86",
+    "location": "Gorbunki"
+  },
+  {
+    "brand_id": 448,
+    "brand_name": "Chevrolet",
+    "model": "Tracker",
+    "year": 1999,
+    "color": "Crimson",
+    "mileage": 25,
+    "price": "$3.09",
+    "location": "Mertani"
+  },
+  {
+    "brand_id": 449,
+    "brand_name": "Nissan",
+    "model": "Quest",
+    "year": 1995,
+    "color": "Purple",
+    "mileage": 24,
+    "price": "$1.76",
+    "location": "Cordova"
+  },
+  {
+    "brand_id": 450,
+    "brand_name": "Acura",
+    "model": "NSX",
+    "year": 2004,
+    "color": "Blue",
+    "mileage": 24,
+    "price": "$1.42",
+    "location": "Fangcun"
+  },
+  {
+    "brand_id": 451,
+    "brand_name": "Volvo",
+    "model": "XC70",
+    "year": 2012,
+    "color": "Aquamarine",
+    "mileage": 19,
+    "price": "$7.69",
+    "location": "Iturama"
+  },
+  {
+    "brand_id": 452,
+    "brand_name": "Chevrolet",
+    "model": "TrailBlazer",
+    "year": 2005,
+    "color": "Violet",
+    "mileage": 17,
+    "price": "$6.16",
+    "location": "Asker"
+  },
+  {
+    "brand_id": 453,
+    "brand_name": "Ford",
+    "model": "E-Series",
+    "year": 1996,
+    "color": "Red",
+    "mileage": 17,
+    "price": "$6.95",
+    "location": "Gorelovo"
+  },
+  {
+    "brand_id": 454,
+    "brand_name": "Infiniti",
+    "model": "G",
+    "year": 2012,
+    "color": "Purple",
+    "mileage": 19,
+    "price": "$6.68",
+    "location": "Huibu"
+  },
+  {
+    "brand_id": 455,
+    "brand_name": "Kia",
+    "model": "Amanti",
+    "year": 2005,
+    "color": "Pink",
+    "mileage": 23,
+    "price": "$4.02",
+    "location": "Cibulakan"
+  },
+  {
+    "brand_id": 456,
+    "brand_name": "Chevrolet",
+    "model": "Malibu",
+    "year": 2011,
+    "color": "Yellow",
+    "mileage": 23,
+    "price": "$3.41",
+    "location": "Jambulang"
+  },
+  {
+    "brand_id": 457,
+    "brand_name": "Nissan",
+    "model": "Maxima",
+    "year": 2000,
+    "color": "Khaki",
+    "mileage": 22,
+    "price": "$4.03",
+    "location": "Täby"
+  },
+  {
+    "brand_id": 458,
+    "brand_name": "Oldsmobile",
+    "model": "88",
+    "year": 1998,
+    "color": "Red",
+    "mileage": 24,
+    "price": "$5.55",
+    "location": "Badeggi"
+  },
+  {
+    "brand_id": 459,
+    "brand_name": "Lexus",
+    "model": "LS",
+    "year": 2004,
+    "color": "Fuscia",
+    "mileage": 15,
+    "price": "$3.51",
+    "location": "Fresno"
+  },
+  {
+    "brand_id": 460,
+    "brand_name": "Chevrolet",
+    "model": "Corvette",
+    "year": 1995,
+    "color": "Puce",
+    "mileage": 18,
+    "price": "$3.32",
+    "location": "Arboga"
+  },
+  {
+    "brand_id": 461,
+    "brand_name": "Honda",
+    "model": "Civic",
+    "year": 1991,
+    "color": "Yellow",
+    "mileage": 18,
+    "price": "$8.95",
+    "location": "Rantauambacang"
+  },
+  {
+    "brand_id": 462,
+    "brand_name": "Ford",
+    "model": "Ranger",
+    "year": 1998,
+    "color": "Orange",
+    "mileage": 16,
+    "price": "$6.31",
+    "location": "Kaišiadorys"
+  },
+  {
+    "brand_id": 463,
+    "brand_name": "BMW",
+    "model": "M5",
+    "year": 2000,
+    "color": "Mauv",
+    "mileage": 18,
+    "price": "$8.21",
+    "location": "Huasahuasi"
+  },
+  {
+    "brand_id": 464,
+    "brand_name": "Acura",
+    "model": "Legend",
+    "year": 1987,
+    "color": "Green",
+    "mileage": 21,
+    "price": "$8.79",
+    "location": "Omu Aran"
+  },
+  {
+    "brand_id": 465,
+    "brand_name": "Ford",
+    "model": "Tempo",
+    "year": 1987,
+    "color": "Purple",
+    "mileage": 13,
+    "price": "$3.59",
+    "location": "Saidpur"
+  },
+  {
+    "brand_id": 466,
+    "brand_name": "Lincoln",
+    "model": "Continental Mark VII",
+    "year": 1991,
+    "color": "Indigo",
+    "mileage": 24,
+    "price": "$0.60",
+    "location": "Longwood"
+  },
+  {
+    "brand_id": 467,
+    "brand_name": "Lexus",
+    "model": "GX",
+    "year": 2011,
+    "color": "Pink",
+    "mileage": 18,
+    "price": "$6.57",
+    "location": "Sâmraông"
+  },
+  {
+    "brand_id": 468,
+    "brand_name": "Chevrolet",
+    "model": "Express 2500",
+    "year": 2009,
+    "color": "Teal",
+    "mileage": 22,
+    "price": "$5.97",
+    "location": "Umeå"
+  },
+  {
+    "brand_id": 469,
+    "brand_name": "Lincoln",
+    "model": "Blackwood",
+    "year": 2002,
+    "color": "Puce",
+    "mileage": 18,
+    "price": "$1.61",
+    "location": "Dimitrovgrad"
+  },
+  {
+    "brand_id": 470,
+    "brand_name": "Hyundai",
+    "model": "Genesis Coupe",
+    "year": 2010,
+    "color": "Mauv",
+    "mileage": 17,
+    "price": "$1.20",
+    "location": "Tucson"
+  },
+  {
+    "brand_id": 471,
+    "brand_name": "Honda",
+    "model": "Civic",
+    "year": 2008,
+    "color": "Khaki",
+    "mileage": 19,
+    "price": "$0.57",
+    "location": "Pieniężno"
+  },
+  {
+    "brand_id": 472,
+    "brand_name": "Pontiac",
+    "model": "Gemini",
+    "year": 1986,
+    "color": "Turquoise",
+    "mileage": 21,
+    "price": "$5.80",
+    "location": "Eláteia"
+  },
+  {
+    "brand_id": 473,
+    "brand_name": "GMC",
+    "model": "Yukon",
+    "year": 2001,
+    "color": "Red",
+    "mileage": 13,
+    "price": "$3.58",
+    "location": "Telsen"
+  },
+  {
+    "brand_id": 474,
+    "brand_name": "Nissan",
+    "model": "Quest",
+    "year": 2006,
+    "color": "Crimson",
+    "mileage": 18,
+    "price": "$0.86",
+    "location": "Trới"
+  },
+  {
+    "brand_id": 475,
+    "brand_name": "Lexus",
+    "model": "IS",
+    "year": 2002,
+    "color": "Puce",
+    "mileage": 24,
+    "price": "$5.60",
+    "location": "Cempaka"
+  },
+  {
+    "brand_id": 476,
+    "brand_name": "Tesla",
+    "model": "Roadster",
+    "year": 2010,
+    "color": "Purple",
+    "mileage": 12,
+    "price": "$7.57",
+    "location": "Longos"
+  },
+  {
+    "brand_id": 477,
+    "brand_name": "Mazda",
+    "model": "MPV",
+    "year": 2005,
+    "color": "Pink",
+    "mileage": 16,
+    "price": "$8.93",
+    "location": "Kavásilas"
+  },
+  {
+    "brand_id": 478,
+    "brand_name": "BMW",
+    "model": "M",
+    "year": 2000,
+    "color": "Aquamarine",
+    "mileage": 24,
+    "price": "$8.65",
+    "location": "Krajan Demit"
+  },
+  {
+    "brand_id": 479,
+    "brand_name": "Subaru",
+    "model": "Justy",
+    "year": 1987,
+    "color": "Mauv",
+    "mileage": 25,
+    "price": "$7.95",
+    "location": "Malgobek"
+  },
+  {
+    "brand_id": 480,
+    "brand_name": "BMW",
+    "model": "X3",
+    "year": 2004,
+    "color": "Aquamarine",
+    "mileage": 22,
+    "price": "$3.33",
+    "location": "Gongming"
+  },
+  {
+    "brand_id": 481,
+    "brand_name": "Infiniti",
+    "model": "J",
+    "year": 1994,
+    "color": "Turquoise",
+    "mileage": 19,
+    "price": "$0.44",
+    "location": "Brejos"
+  },
+  {
+    "brand_id": 482,
+    "brand_name": "Isuzu",
+    "model": "i-290",
+    "year": 2007,
+    "color": "Goldenrod",
+    "mileage": 21,
+    "price": "$6.15",
+    "location": "Yako"
+  },
+  {
+    "brand_id": 483,
+    "brand_name": "Mazda",
+    "model": "RX-7",
+    "year": 1983,
+    "color": "Red",
+    "mileage": 21,
+    "price": "$4.83",
+    "location": "Kameyama"
+  },
+  {
+    "brand_id": 484,
+    "brand_name": "Mercury",
+    "model": "Sable",
+    "year": 2008,
+    "color": "Orange",
+    "mileage": 25,
+    "price": "$1.10",
+    "location": "Yao’an"
+  },
+  {
+    "brand_id": 485,
+    "brand_name": "Hyundai",
+    "model": "Sonata",
+    "year": 2004,
+    "color": "Puce",
+    "mileage": 15,
+    "price": "$2.48",
+    "location": "Manutapen"
+  },
+  {
+    "brand_id": 486,
+    "brand_name": "Jeep",
+    "model": "Wrangler",
+    "year": 1995,
+    "color": "Aquamarine",
+    "mileage": 16,
+    "price": "$5.02",
+    "location": "Cocachacra"
+  },
+  {
+    "brand_id": 487,
+    "brand_name": "Ford",
+    "model": "Expedition EL",
+    "year": 2008,
+    "color": "Aquamarine",
+    "mileage": 20,
+    "price": "$4.87",
+    "location": "Slavyanovo"
+  },
+  {
+    "brand_id": 488,
+    "brand_name": "Mazda",
+    "model": "B-Series",
+    "year": 1997,
+    "color": "Yellow",
+    "mileage": 20,
+    "price": "$7.34",
+    "location": "Capelinha"
+  },
+  {
+    "brand_id": 489,
+    "brand_name": "Mitsubishi",
+    "model": "Mighty Max",
+    "year": 1995,
+    "color": "Green",
+    "mileage": 20,
+    "price": "$6.42",
+    "location": "Ermelo"
+  },
+  {
+    "brand_id": 490,
+    "brand_name": "Nissan",
+    "model": "Pathfinder",
+    "year": 1993,
+    "color": "Aquamarine",
+    "mileage": 16,
+    "price": "$7.56",
+    "location": "Kalininskiy"
+  },
+  {
+    "brand_id": 491,
+    "brand_name": "Honda",
+    "model": "del Sol",
+    "year": 1996,
+    "color": "Green",
+    "mileage": 20,
+    "price": "$0.10",
+    "location": "Changqing"
+  },
+  {
+    "brand_id": 492,
+    "brand_name": "Lincoln",
+    "model": "MKX",
+    "year": 2008,
+    "color": "Khaki",
+    "mileage": 20,
+    "price": "$3.69",
+    "location": "Pangai"
+  },
+  {
+    "brand_id": 493,
+    "brand_name": "GMC",
+    "model": "Rally Wagon 3500",
+    "year": 1993,
+    "color": "Teal",
+    "mileage": 18,
+    "price": "$9.26",
+    "location": "Florida"
+  },
+  {
+    "brand_id": 494,
+    "brand_name": "Chevrolet",
+    "model": "Colorado",
+    "year": 2008,
+    "color": "Red",
+    "mileage": 25,
+    "price": "$1.62",
+    "location": "Leubatang"
+  },
+  {
+    "brand_id": 495,
+    "brand_name": "Mazda",
+    "model": "Millenia",
+    "year": 2001,
+    "color": "Green",
+    "mileage": 18,
+    "price": "$9.38",
+    "location": "Bealanana"
+  },
+  {
+    "brand_id": 496,
+    "brand_name": "Pontiac",
+    "model": "LeMans",
+    "year": 1993,
+    "color": "Violet",
+    "mileage": 13,
+    "price": "$3.33",
+    "location": "Nanhe"
+  },
+  {
+    "brand_id": 497,
+    "brand_name": "Jeep",
+    "model": "Comanche",
+    "year": 1992,
+    "color": "Violet",
+    "mileage": 21,
+    "price": "$0.59",
+    "location": "Hongxingqiao"
+  },
+  {
+    "brand_id": 498,
+    "brand_name": "GMC",
+    "model": "Yukon XL 1500",
+    "year": 2010,
+    "color": "Turquoise",
+    "mileage": 13,
+    "price": "$2.10",
+    "location": "Ferkessédougou"
+  },
+  {
+    "brand_id": 499,
+    "brand_name": "Isuzu",
+    "model": "Ascender",
+    "year": 2008,
+    "color": "Goldenrod",
+    "mileage": 16,
+    "price": "$9.84",
+    "location": "Auch"
+  },
+  {
+    "brand_id": 500,
+    "brand_name": "Buick",
+    "model": "LeSabre",
+    "year": 2004,
+    "color": "Blue",
+    "mileage": 23,
+    "price": "$6.03",
+    "location": "Cihaur"
+  }
+]

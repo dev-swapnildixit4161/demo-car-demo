@@ -1,0 +1,111 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: paymentservice
+  labels:
+    app: paymentservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: paymentservice
+  template:
+    metadata:
+      labels:
+        app: paymentservice
+    spec:
+      containers:
+        - name: paymentservice
+          image: gcr.io/PROJECT_ID/IMAGE:TAG
+          imagePullPolicy: Always
+          ports:
+            - name: http
+              containerPort: 9092
+              protocol: TCP
+          env:
+            - name: MYSQL_DB_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: secret-to-be-created
+                  key: mysql-db-username
+                  optional: false
+            - name: MYSQL_DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: secret-to-be-created
+                  key: mysql-db-userpassword
+                  optional: false
+          envFrom:
+            - configMapRef:
+                name: payment-configmap
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: paymentservice
+  labels:
+    app: paymentservice
+spec:
+  ports:
+    - name: http
+      port: 9092
+      targetPort: 9092
+  selector:
+    app: paymentservice
+  type: LoadBalancer
+
+---
+
+apiVersion: external-secrets.io/v1beta1
+kind: SecretStore
+metadata:
+  name: car-demo-payment-secretstore
+  namespace: default
+spec:
+  provider:
+    gcpsm:
+      auth:
+        secretRef:
+          secretAccessKeySecretRef:
+            name: gcpsm-secret
+            key: secret-access-credentials
+      projectID: datamesh-2
+---
+apiVersion: external-secrets.io/v1beta1
+kind: ExternalSecret
+metadata:
+  name: car-demo-externalsecret
+  namespace: default
+spec:
+  secretStoreRef:
+    name: car-demo-payment-secretstore
+    kind: SecretStore
+  target:
+    name: secret-to-be-created
+  data:
+    - secretKey: "mysql-db-username"
+      remoteRef:
+        key: car-demo-secret
+        version: latest
+        property: mysql-db-username
+    - secretKey: "mysql-db-userpassword"
+      remoteRef:
+        key: car-demo-secret
+        version: latest
+        property: mysql-db-userpassword
+
+    - secretKey: "MY_SQL_SECRETS"
+      remoteRef:
+        key: car-demo-secret
+        version: latest
+
+---
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: payment-configmap
+data:
+  # Configuration values can be set as key-value properties
+  MYSQL_HOST: 34.148.245.29
+  AXON_HOST: 34.74.31.122:8124
+  SERVICE_NAME: PaymentService

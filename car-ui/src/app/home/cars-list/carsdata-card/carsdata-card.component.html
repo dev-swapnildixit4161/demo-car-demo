@@ -1,0 +1,23 @@
+<div class="carsdata-card-container">
+  <mat-card class="example-card my-5">
+    <mat-card-header>
+      <mat-card-title class="card-title">{{ carCompanyName }} {{ carModel }}</mat-card-title>
+      <mat-card-subtitle class="card-title">{{ carPrice }}</mat-card-subtitle>
+    </mat-card-header>
+    <br />
+    <mat-card-content>
+      <div class="info d-flex justify-content-between">
+        <h3><i class="fa-solid fa-gauge" [style.color]="!isNewUI ? '#076599' : '#d73b1e'"></i></h3>
+        <h3><i  class="fa-solid fa-location-dot" [style.color]="!isNewUI ? '#076599' : '#d73b1e'"></i></h3>
+        <h3><i class="fa-solid fa-calendar-days" [style.color]="!isNewUI ? '#076599' : '#d73b1e'"></i></h3>
+        <h3><i class="fa-solid fa-droplet" [style.color]="!isNewUI ? '#076599' : '#d73b1e'"></i></h3>
+      </div>
+      <div class="info d-flex justify-content-between">
+        <h3>{{ carMileage }}</h3>
+        <h3>{{ carLocation }}</h3>
+        <h3>{{ manufacturingYear }}</h3>
+        <h3>{{ carColor }}</h3>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>

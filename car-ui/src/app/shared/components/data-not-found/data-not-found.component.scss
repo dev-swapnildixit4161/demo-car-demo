@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  margin: 1rem;
+}
+
+.centered-content {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.oops {
+  font-weight: bold;
+  color: #076599;
+  font-size: 50px;
+  font-family: Arial, sans-serif;
+  line-height: 1.2;
+}
+
+.generate,
+.messages {
+  font-weight: bold;
+  color: black;
+}
+
+.generate-button {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 20px;
+  /* border: none; */
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}

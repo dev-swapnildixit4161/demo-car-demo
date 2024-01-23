@@ -1,0 +1,27 @@
+<div class="col" [style.display]="brandLoader ? 'none' : 'block'">
+  <div class="d-flex align-items-center justify-content-center min-vh-95 shift">
+    <mat-spinner color="warn"></mat-spinner>
+  </div>
+</div>
+
+
+<div [ngClass]="{'contentNewUI': !isNewUI, 'content': isNewUI, 'container' : true}">
+  <div fxLayout="row wrap" fxLayoutGap="16px grid">
+    <div
+      fxFlex="25%"
+      fxFlex.xs="100%"
+      fxFlex.sm="33%"
+      *ngFor="let carBrand of carBrands"
+    >
+      <mat-card class="mat-elevation-z4">
+        <mat-card-header>
+          <button   [style.color]="!isNewUI ? '#076599' : '#d73b1e'" routerLink="./carList/{{carBrand.brand}}"  (click)="onBrandClick(carBrand.brand)">
+            <p>{{ carBrand["brand"] }}</p>
+          </button>
+        </mat-card-header>
+      </mat-card>
+    </div>
+  </div>
+</div>
+
+

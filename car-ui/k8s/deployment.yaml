@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: java-competency-demo-ui
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: java-competency-demo-ui
+  template:
+    metadata:
+      labels:
+        app: java-competency-demo-ui
+    spec:
+      containers:
+        - name: java-competency-demo-ui
+          image: us-central1-docker.pkg.dev/project-id/gcp-demo-app/gcp-deployment
+          ports:
+            - containerPort: 8080
+          imagePullPolicy: Always
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: java-competency-demo-ui-service
+spec:
+  selector:
+    app: java-competency-demo-ui
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: LoadBalancer

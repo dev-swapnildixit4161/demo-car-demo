@@ -1,0 +1,82 @@
+[
+  {
+    "brand": "Lamborghini",
+    "model": "Diablo",
+    "color": "Indigo",
+    "quantity": 2,
+    "tax": 7,
+    "price": 72
+  },
+  {
+    "brand": "Kia",
+    "model": "Sportage",
+    "color": "Purple",
+    "quantity": 45,
+    "tax": 37,
+    "price": 41
+  },
+  {
+    "brand": "Pontiac",
+    "model": "Tempest",
+    "color": "Purple",
+    "quantity": 67,
+    "tax": 24,
+    "price": 5
+  },
+  {
+    "brand": "GMC",
+    "model": "Yukon",
+    "color": "Khaki",
+    "quantity": 74,
+    "tax": 30,
+    "price": 78
+  },
+  {
+    "brand": "Mazda",
+    "model": "626",
+    "color": "Orange",
+    "quantity": 36,
+    "tax": 6,
+    "price": 85
+  },
+  {
+    "brand": "Subaru",
+    "model": "Forester",
+    "color": "Mauv",
+    "quantity": 75,
+    "tax": 39,
+    "price": 74
+  },
+  {
+    "brand": "Chevrolet",
+    "model": "Corvette",
+    "color": "Goldenrod",
+    "quantity": 57,
+    "tax": 54,
+    "price": 21
+  },
+  {
+    "brand": "Audi",
+    "model": "200",
+    "color": "Indigo",
+    "quantity": 39,
+    "tax": 77,
+    "price": 81
+  },
+  {
+    "brand": "Subaru",
+    "model": "Legacy",
+    "color": "Blue",
+    "quantity": 62,
+    "tax": 65,
+    "price": 55
+  },
+  {
+    "brand": "Chevrolet",
+    "model": "Corvette",
+    "color": "Indigo",
+    "quantity": 89,
+    "tax": 68,
+    "price": 62
+  }
+]

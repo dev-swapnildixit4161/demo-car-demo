@@ -1,0 +1,28 @@
+<section>
+  <button
+    mat-icon-button
+    [matMenuTriggerFor]="menu"
+    class="action"
+    data-testid="mabl-table-action-button"
+  >
+    <mat-icon>more_vert</mat-icon>
+  </button>
+
+  <mat-menu #menu="matMenu">
+    <a mat-menu-item (click)="addToCart()">
+      <div class="d-flex justify-content-between">
+        <div class="me-1">
+          <span class="ms-2 video-text">Add to Cart</span>
+        </div>
+        <img
+          src="assets/images/shopping_bag.svg"
+          alt="play_icon"
+          height="26"
+          width="26"
+          class="ms-5"
+        />
+      </div>
+    </a>
+    <hr class="m-0" />
+  </mat-menu>
+</section>

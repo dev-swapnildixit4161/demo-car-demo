@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: adminservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: adminservice
+  template:
+    metadata:
+      labels:
+        app: adminservice
+    spec:
+      containers:
+        - name: adminservice
+          image: ntdemocontainerregistry.azurecr.io/IMAGE:TAG
+          imagePullPolicy: Always
+          ports:
+            - name: http
+              containerPort: 8080
+              protocol: TCP
+          env:
+            - name: COSMOS_KEY
+              value: kLApjiCXgRCIRvbN7rPoRyAvOeZlHZeeQGfKFICrlwWJ87XTcYovjtZefffvyYFfjoDZwuEzFvCKACDbHZxDSA==
+            - name: COSMOS_URI
+              value: https://az-nashtech-db.documents.azure.com:443/
+            - name: KAFKA_SERVER
+              value: ntdemoevtnamespace.servicebus.windows.net:9093
+            - name: KAFKA_SECURITY_PROTOCOL
+              value: SASL_SSL
+            - name: SASL_MECHANISM
+              value: PLAIN
+            - name: JASS_CONFIG
+              value: org.apache.kafka.common.security.plain.PlainLoginModule required username="$ConnectionString" password="Endpoint=sb://ntdemoevtnamespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=ujnlh0o3QswtDIJckFoXlOuX0z7h46Pe1+AEhMgWXQ8=";
+            - name: KEY_SERIALIZER
+              value: org.apache.kafka.common.serialization.StringSerializer
+            - name: VALUE_SERIALIZER
+              value: org.springframework.kafka.support.serializer.JsonSerializer
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: adminservice
+spec:
+  selector:
+    app: adminservice
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  type: LoadBalancer

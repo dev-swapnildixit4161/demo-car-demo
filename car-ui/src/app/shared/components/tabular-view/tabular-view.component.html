@@ -1,0 +1,16 @@
+<div class="mx-5">
+  <ag-grid-angular
+    class="ag-theme-alpine table-view"
+    data-testid="mabl-tabular-view"
+    [style.height]="tableRows.length >= 5 ? '580px' : '300px'"
+    [columnDefs]="tableHeaders"
+    [defaultColDef]="defaultColDef"
+    [rowData]="tableRows"
+    [pagination]="tableRows?.length >= 10"
+    [paginationPageSize]="10"
+    [suppressDragLeaveHidesColumns]="true"
+    [overlayLoadingTemplate]="overlayLoadingTemplate"
+    [overlayNoRowsTemplate]="overlayNoRowsTemplate"
+    [autoGroupColumnDef]="autoGroupColumnDef"
+  ></ag-grid-angular>
+</div>

@@ -1,0 +1,15 @@
+<div class="search-container d-flex align-content-center justify-content-center flex-wrap">
+
+    <button [matMenuTriggerFor]="menu" class="dropdown-button" (click)="searchButtonClicked()" #dropdownButton>{{ selectedCategory }}</button>
+
+    <input type="text" class="search-bar" placeholder="Search..." [(ngModel)]="searchTerm" (input)="filterItems()">
+
+    <button class="search-button" (click)="searchButtonClicked()">Search</button>
+
+    <mat-menu #menu="matMenu" class="dropdown-content" #dropdownContent>
+
+        <button mat-menu-item *ngFor="let item of filteredItems" (click)="menuItemClicked(item)">{{ item }}</button>
+
+    </mat-menu>
+
+</div>

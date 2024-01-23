@@ -1,0 +1,35 @@
+<div class="cart-items-container">
+  <mat-card class="example-card my-5">
+    <mat-card-header>
+      <mat-card-title class="card-title">
+        {{ cartItem.brand }} {{ cartItem.model }}
+      </mat-card-title>
+    </mat-card-header>
+    <br />
+    <mat-card-content>
+      <div class="info d-flex justify-content-between">
+        <div class="item-info">
+          <h3>Color</h3>
+          <h3>{{ cartItem.color }}</h3>
+        </div>
+        <div class="item-info">
+          <h3>Tax</h3>
+          <h3>{{ cartItem.tax }}</h3>
+        </div>
+        <div class="item-info">
+          <h3>Price</h3>
+          <h3>{{ cartItem.basePrice }}</h3>
+        </div>
+        <div class="item-info">
+          <h3>Quantity</h3>
+          <div class="quantity-control d-flex justify-content-between">
+            <button mat-raised-button class="quantity-button-minus" (click)="decreaseQuantity(cartItem)">-</button>
+            <h3>{{ cartItem.quantity }}</h3>
+            <button mat-raised-button class="quantity-button-plus" (click)="increaseQuantity(cartItem)">+</button>
+          </div>
+        </div>
+      </div>
+    </mat-card-content>
+    <button mat-raised-button class="place-order-button"  (click)="placeOrder(cartItem.productId, Number(cartItem.quantity))">Place Order</button>
+  </mat-card>
+</div>

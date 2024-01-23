@@ -1,0 +1,12 @@
+google:
+  pubSub:
+    topic: ${PUB_SUB_TOPIC_ID}
+spring:
+  cloud:
+    gcp:
+      project-id: ${GCP_PROJECT_ID}
+
+apiUrl: /3_fixed_band.json?key=dcbc8750
+mockaroo:
+  api:
+    url: https://my.api.mockaroo.com

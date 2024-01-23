@@ -1,0 +1,56 @@
+:host
+  ::ng-deep
+  .mdc-checkbox
+  .mdc-checkbox__native-control:enabled:checked
+  ~ .mdc-checkbox__background {
+  border-color: #ffffff;
+  background-color: #00539e;
+}
+
+:host ::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+  height: 35px;
+  padding: 4px 8px;
+  width: 100%;
+}
+
+:host ::ng-deep .mdc-text-field--no-label:not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mat-mdc-form-field-infix {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+:host ::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+  background-color: transparent;
+  margin-top: 10px;
+}
+
+mat-card{
+  margin-top: 10px;
+  box-shadow: 0 4px 8px #0002 ;
+  border-radius:  8px;
+  background-color: #fff;
+}
+
+.mat-select {
+  float: right;
+}
+
+.add-data-button {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+  width: fit-content;
+}
+
+.spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.view-settings-button{
+  justify-content: flex-end;
+  width: 20px;
+  margin-left: 1rem ;
+}

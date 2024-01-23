@@ -1,0 +1,26 @@
+<app-header></app-header>
+<div *ngIf="!isDataPresent || carsData.length <=0" class = "centered-content">
+  <img src="assets/images/noData.png" alt="No data" style="width: 30%; height: 30%">
+</div>
+<div *ngIf="carsData && carsData.length > 0 && isDataPresent">
+  <div class="search-result-cards d-flex justify-content-center" *ngFor="let car of carsData | paginate
+    : {
+        itemsPerPage: itemsPerPage,
+        currentPage: page,
+        totalItems: carsData.length
+      };
+    let i = index">
+    <app-carsdata-card
+            [carCompanyName]="car.brand_name"
+            [carModel]="car.model"
+            [carPrice]="car.price"
+            [carMileage]="car.mileage"
+            [manufacturingYear]="car.year"
+            [carColor]="car.color"
+    ></app-carsdata-card>
+    <button class="add-to-cart-button" (click)="addToCart(car.carId)">Add to Cart</button>
+  </div>
+  <div class="paginate" *ngIf="carsData.length > 5">
+    <pagination-controls (pageChange)="page = $event" previousLabel="Prev" nextLabel="Next"></pagination-controls>
+  </div>
+</div>

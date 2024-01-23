@@ -1,0 +1,23 @@
+<header>
+  <mat-toolbar class="mainToolbar">
+    <div routerLink="/dashboard"
+       routerLinkActive="active"
+       class="home-link">
+      {{ title }}
+    </div>
+    <app-search></app-search>
+    <span class="toolbar-spacer"></span>
+    <div>
+      <div  class="cart-icon-container">
+        <mat-icon *ngIf="!isCartUIVisible"
+                  routerLink="/cart"
+                  routerLinkActive="active"
+                  [matBadge]="(cartService.cartItemCount$ | async) || 0"
+                  matBadgeColor="warn"
+                  (click)="getCartItems()"
+        >shopping_cart</mat-icon>
+      </div>
+      <span class="cdk-visually-hidden">{{ cartItemCount }} </span>
+    </div>
+  </mat-toolbar>
+</header>

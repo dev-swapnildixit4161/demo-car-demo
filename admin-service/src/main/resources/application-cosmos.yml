@@ -1,0 +1,30 @@
+cosmosdb:
+  key: ${COSMOS_KEY}
+  uri: ${COSMOS_URI}
+  name: az-nashtech-db
+  container-name: az-car-collection
+
+eventhub:
+  name: ntdemoeventhub
+
+apiUrl: /model_random.json?key=dcbc8750
+mockaroo:
+  api:
+    url: https://my.api.mockaroo.com
+
+spring:
+  cloud:
+    gcp:
+      firestore:
+        enabled: false
+  autoconfigure:
+    exclude: com.google.cloud.spring.autoconfigure.firestore.FirestoreRepositoriesAutoConfiguration
+  kafka:
+    bootstrap-servers: ${KAFKA_SERVER}
+    properties:
+      security.protocol: ${KAFKA_SECURITY_PROTOCOL}
+      sasl.mechanism: ${SASL_MECHANISM}
+      sasl.jaas.config: ${JASS_CONFIG}
+    producer:
+      key-serializer: ${KEY_SERIALIZER}
+      value-serializer: ${VALUE_SERIALIZER}

@@ -1,0 +1,35 @@
+<div class="homePage">
+  <header *ngIf="isHeaderVisible">
+    <mat-toolbar class="mat-elevation-z1 toolbar">
+      <div class="nashTechLogo">
+        <img [src]="nashTechLogoUrl" alt="NashTech logo" />
+      </div>
+      <div class="centered-content nav-title">
+        <div class="navLinks">
+          {{ Title }}
+        </div>
+      </div>
+      <div class="navLinks align-text-bottom description nav-desc">
+        {{ Description }}
+      </div>
+    </mat-toolbar>
+  </header>
+
+  <div [ngClass]="{'chips': !isHeaderVisible, 'my-5': isHeaderVisible}" id="sub-header">
+    <mat-chip-listbox aria-label="Cloud Selection">
+      <mat-chip-option
+        *ngFor="let cloudItem of cloudOptions"
+        [color]="cloudItem.color"
+        [selected]="cloudItem.isSelected"
+        [routerLink]="cloudItem.path"
+        routerLinkActive="active"
+        ><img
+          matChipAvatar
+          src="{{ cloudItem.icon }}"
+          alt="Icon of Cloud Item"
+        />{{ cloudItem.label }}</mat-chip-option
+      >
+    </mat-chip-listbox>
+  </div>
+</div>
+<router-outlet></router-outlet>

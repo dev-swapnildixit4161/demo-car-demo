@@ -1,0 +1,5 @@
+package com.nashtech.common.utils;
+
+public enum OderFailure {
+    INVENTORY_SERVICE_NOT_AVAILABLE,PAYMENT_SERVICE_NOT_AVAILABLE,SHIPMENT_SERVICE_NOT_AVAILABLE
+}
